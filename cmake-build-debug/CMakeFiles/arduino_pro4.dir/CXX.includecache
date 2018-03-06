@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4_arduino_pro4.ino.cpp
+Arduino.h
+-
+Arduino.h
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Arduino.h
+

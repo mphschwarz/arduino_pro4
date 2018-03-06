@@ -1,0 +1,7 @@
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/upload.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/arduino_pro4-upload.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/arduino_pro4-size.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/arduino_pro4.dir
+/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/nano_CORE.dir

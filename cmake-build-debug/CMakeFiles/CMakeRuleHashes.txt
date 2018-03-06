@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+52786e887b53077e3b084cd9672be5ed CMakeFiles/arduino_pro4-size
+895d5bee77918677172e92c5a239901b CMakeFiles/arduino_pro4-upload
+c7b568e54ce6b9528aba7e3bbf83bcf7 arduino_pro4_arduino_pro4.ino.cpp

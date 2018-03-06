@@ -1,0 +1,6 @@
+/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mschwarz/fhnw/pro4E/arduino_pro4
+-- Generating arduino_pro4
+-- Using /usr/bin/avr-objcopy for converting firmware image to hex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug
