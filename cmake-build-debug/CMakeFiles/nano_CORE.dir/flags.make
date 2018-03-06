@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/avr-gcc
 # compile CXX with /opt/arduino-1.8.5/hardware/tools/avr/bin/avr-g++
-C_FLAGS = -g -Os -w -ffunction-sections -fdata-sections -MMD -g -Os -w -ffunction-sections -fdata-sections -MMD    -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega2560 -I"/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino" -I"/opt/arduino-1.8.5/libraries" -I"/opt/arduino-1.8.5/hardware/arduino/avr/variants/eightanaloginputs"
+C_FLAGS = -g -Os -w -ffunction-sections -fdata-sections -MMD -g -Os -w -ffunction-sections -fdata-sections -MMD    -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino" -I"/opt/arduino-1.8.5/libraries" -I"/opt/arduino-1.8.5/hardware/arduino/avr/variants/eightanaloginputs"
 
 C_DEFINES = 
 
 C_INCLUDES = 
 
-CXX_FLAGS = -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega2560 -I"/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino" -I"/opt/arduino-1.8.5/libraries" -I"/opt/arduino-1.8.5/hardware/arduino/avr/variants/eightanaloginputs"
+CXX_FLAGS = -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino" -I"/opt/arduino-1.8.5/libraries" -I"/opt/arduino-1.8.5/hardware/arduino/avr/variants/eightanaloginputs"
 
 CXX_DEFINES = 
 

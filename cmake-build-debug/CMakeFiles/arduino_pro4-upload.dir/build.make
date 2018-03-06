@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug
 include CMakeFiles/arduino_pro4-upload.dir/progress.make
 
 CMakeFiles/arduino_pro4-upload: arduino_pro4.elf
-	/opt/arduino-1.8.5/hardware/tools/avr/bin/avrdude -C/opt/arduino-1.8.5/hardware/tools/avr/etc/avrdude.conf -patmega2560 -cwiring -b115200 -P/dev/ttyACM0 -D -V -Uflash:w:/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.hex:i -Ueeprom:w:/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.eep:i
+	/opt/arduino-1.8.5/hardware/tools/avr/bin/avrdude -C/opt/arduino-1.8.5/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -b115200 -P/dev/ttyACM0 -D -V -Uflash:w:/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.hex:i -Ueeprom:w:/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.eep:i
 
 arduino_pro4-upload: CMakeFiles/arduino_pro4-upload
 arduino_pro4-upload: CMakeFiles/arduino_pro4-upload.dir/build.make

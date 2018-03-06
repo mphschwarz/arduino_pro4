@@ -55,7 +55,7 @@ include CMakeFiles/arduino_pro4-size.dir/progress.make
 
 CMakeFiles/arduino_pro4-size: arduino_pro4.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Calculating arduino_pro4 image size"
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DFIRMWARE_IMAGE=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.elf -DMCU=atmega2560 -DEEPROM_IMAGE=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.eep -P /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
+	/opt/clion-2017.2.3/bin/cmake/bin/cmake -DFIRMWARE_IMAGE=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.elf -DMCU=atmega328p -DEEPROM_IMAGE=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4.eep -P /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/FirmwareSize.cmake
 
 arduino_pro4-size: CMakeFiles/arduino_pro4-size
 arduino_pro4-size: CMakeFiles/arduino_pro4-size.dir/build.make

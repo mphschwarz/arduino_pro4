@@ -10,14 +10,21 @@
  void setup() ;
  void loop() ;
  void loop() ;
+ int getClosestBeacon();
+ int getClosestBeacon();
 //=== END Forward: /home/mschwarz/fhnw/pro4E/arduino_pro4/arduino_pro4.ino
 #line 1 "/home/mschwarz/fhnw/pro4E/arduino_pro4/arduino_pro4.ino"
 
 
 void setup() {
-
+    Serial.begin(9600);
 }
 
 void loop() {
+    Serial.write("hi\n");
+    delay(1000);
+}
 
+int getClosestBeacon(){
+    return 0;
 }
