@@ -10,6 +10,10 @@ void loop() {
     delay(1000);
 }
 
+void requestManifest(){
+
+}
+
 int getClosestBeacon(){
     return 0;
 }
