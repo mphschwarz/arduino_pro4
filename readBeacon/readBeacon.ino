@@ -10,6 +10,6 @@ void loop() {
 }
 
 char* getClosestBeacon(){
-  //read the Beacon and return its value (pointer on char array)
+  //read the Beacon and return its UID (pointer on char array)
 }
 
