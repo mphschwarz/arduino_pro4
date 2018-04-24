@@ -13,11 +13,11 @@
 //  Arduino D9 (SS TX) - BT RX through a voltage divider (5v to 3.3v)
 //
  
-#include <AltSoftSerial.h>
-AltSoftSerial BTserial; 
+#include <SoftwareSerial.h>
+SoftwareSerial BTserial(2,3); 
  
  
-char c=' ';
+char c = ' ';
 boolean NL = true;
  
 void setup() 
@@ -46,7 +46,7 @@ void loop()
     if (Serial.available())
     {
         c = Serial.read();
-        if (c!=10 & c!=13 ) 
+        if (c != 10 & c != 13 ) 
         {  
              BTserial.write(c);
         }
