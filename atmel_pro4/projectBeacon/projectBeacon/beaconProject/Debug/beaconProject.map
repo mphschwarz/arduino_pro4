@@ -1,37 +1,37 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                              Sketch.o (_ZN14HardwareSerial5beginEmh)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                              Sketch.o (_ZN14HardwareSerial5writeEh)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
                               Sketch.o (Serial)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o (main)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                               Sketch.o (delay)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
                               Sketch.o (_ZN14SoftwareSerial4readEv)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
-C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o) (pinMode)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o) (yield)
+C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o) (pinMode)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__subsf3)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__subsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__ltsf2)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__ltsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__divsf3)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__divsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
@@ -49,19 +49,19 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__gtsf2)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__gtsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__mulsf3)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__mulsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__unordsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o) (__divmodhi4)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o) (__divmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o) (__divmodsi4)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o) (__divmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
@@ -79,7 +79,7 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
-                              C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o) (abort)
+                              C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o) (abort)
 
 Discarded input sections
 
@@ -88,132 +88,134 @@ Discarded input sections
  .text          0x00000000        0x0 Sketch.o
  .data          0x00000000        0x0 Sketch.o
  .bss           0x00000000        0x0 Sketch.o
- .text._Z6filtIDi
+ .text._Z4filti
                 0x00000000        0x2 Sketch.o
  .text._Z11rssiComparev
                 0x00000000        0x2 Sketch.o
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .bss.endString
+                0x00000000        0x8 Sketch.o
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .text._ZN14HardwareSerial3endEv
-                0x00000000       0x44 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000000       0x44 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text._ZN5Print5flushEv
-                0x00000000        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .text.atexit   0x00000000        0x6 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000000        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .text._Z8setupUSBv
-                0x00000000        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print17availableForWriteEv
-                0x00000000        0x6 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5flushEv
-                0x00000000        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x00000000       0x48 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK6String
-                0x00000000       0x1c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEc
-                0x00000000        0xe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
-                0x00000000       0x14 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK6String
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEc
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print11printNumberEmh
-                0x00000000       0x92 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x92 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEmi
-                0x00000000       0x1a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x1a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEhi
-                0x00000000        0xe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEji
-                0x00000000        0xc C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEji
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEli
-                0x00000000       0x90 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x90 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEii
-                0x00000000        0xe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEii
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEli
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print10printFloatEdh
-                0x00000000      0x1b6 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000      0x1b6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
-                0x00000000        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEdi
-                0x00000000       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
-                0x00000000        0xc C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .text.millis   0x00000000       0x18 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000000        0xc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text.millis   0x00000000       0x18 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .text.delayMicroseconds
-                0x00000000       0x16 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .group         0x00000000        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000000       0x16 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .text._ZN5Print17availableForWriteEv
-                0x00000000        0x6 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000000        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .text._ZN5Print5flushEv
-                0x00000000        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000000        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .text._ZN14SoftwareSerial11rx_pin_readEv
-                0x00000000        0xe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .text._ZN14SoftwareSerial12subtract_capEjj
-                0x00000000       0x12 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000000       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .text._ZN14SoftwareSerial3endEv
-                0x00000000        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
  .text.__cxa_pure_virtual
-                0x00000000        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
  .text.__cxa_deleted_virtual
-                0x00000000        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_info    0x00000000       0x76 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_abbrev  0x00000000       0x6d C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000000        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
  .debug_aranges
-                0x00000000       0x20 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_ranges  0x00000000       0x10 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_line    0x00000000       0xa9 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_str     0x00000000      0x1ab C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .comment       0x00000000       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_frame   0x00000000       0x34 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .text          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .data          0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .bss           0x00000000        0x0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000000       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0xa9 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x1ab C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
  .text.digitalRead
-                0x00000000       0x52 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000000       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
@@ -499,7 +501,7 @@ LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/
 LOAD Sketch.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
-LOAD C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a
+LOAD C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a
 END GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
@@ -607,7 +609,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xffa
+.text           0x00000000     0x1282
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -624,22 +626,22 @@ END GROUP
  *libc.a:*(.progmem.data)
  *(.progmem*)
  .progmem.data.digital_pin_to_timer_PGM
-                0x00000068       0x14 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000068       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x00000068                digital_pin_to_timer_PGM
  .progmem.data.digital_pin_to_bit_mask_PGM
-                0x0000007c       0x14 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000007c       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x0000007c                digital_pin_to_bit_mask_PGM
  .progmem.data.digital_pin_to_port_PGM
-                0x00000090       0x14 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000090       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x00000090                digital_pin_to_port_PGM
  .progmem.data.port_to_input_PGM
-                0x000000a4        0xa C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000a4        0xa C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000a4                port_to_input_PGM
  .progmem.data.port_to_output_PGM
-                0x000000ae        0xa C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000ae        0xa C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000ae                port_to_output_PGM
  .progmem.data.port_to_mode_PGM
-                0x000000b8        0xa C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000b8        0xa C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                 0x000000b8                port_to_mode_PGM
                 0x000000c2                . = ALIGN (0x2)
  *(.jumptables)
@@ -649,7 +651,7 @@ END GROUP
                 0x000000c2                __ctors_start = .
  *(.ctors)
  .ctors         0x000000c2        0x2 Sketch.o
- .ctors         0x000000c4        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .ctors         0x000000c4        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
                 0x000000c6                __ctors_end = .
                 0x000000c6                __dtors_start = .
  *(.dtors)
@@ -711,183 +713,191 @@ END GROUP
                 0x00000118                __vector_20
                 0x0000011c                . = ALIGN (0x2)
  *(.text.*)
- .text._Z10sendStringv
-                0x0000011c        0xc Sketch.o
-                0x0000011c                _Z10sendStringv
- .text.setup    0x00000128       0x5a Sketch.o
-                0x00000128                setup
  .text.startup._GLOBAL__sub_I_BTSerial
-                0x00000182        0xe Sketch.o
+                0x0000011c        0xe Sketch.o
  .text.exit._GLOBAL__sub_D_BTSerial
-                0x00000190        0x8 Sketch.o
+                0x0000012a        0x8 Sketch.o
+ .text._Z11sendCommandi.part.1
+                0x00000132       0x20 Sketch.o
  .text._Z11sendCommandi
-                0x00000198       0x48 Sketch.o
-                0x00000198                _Z11sendCommandi
+                0x00000152       0x34 Sketch.o
+                0x00000152                _Z11sendCommandi
  .text._Z10readAnswerv
-                0x000001e0       0x1e Sketch.o
-                0x000001e0                _Z10readAnswerv
+                0x00000186       0x1e Sketch.o
+                0x00000186                _Z10readAnswerv
+ .text._Z13firstResponsev
+                0x000001a4       0x3a Sketch.o
+                0x000001a4                _Z13firstResponsev
+ .text.setup    0x000001de       0x2a Sketch.o
+                0x000001de                setup
  .text._Z12getUUID_RSSIv
-                0x000001fe       0x4a Sketch.o
-                0x000001fe                _Z12getUUID_RSSIv
+                0x00000208       0x5a Sketch.o
+                0x00000208                _Z12getUUID_RSSIv
+ .text._Z12printBeacons16UUID_RSSI_values
+                0x00000262       0xa2 Sketch.o
+                0x00000262                _Z12printBeacons16UUID_RSSI_values
+ .text._Z10saveBeaconi
+                0x00000304      0x1c0 Sketch.o
+                0x00000304                _Z10saveBeaconi
  .text._Z4scanv
-                0x00000248       0x68 Sketch.o
-                0x00000248                _Z4scanv
- .text.loop     0x000002b0       0x1c Sketch.o
-                0x000002b0                loop
+                0x000004c4       0x68 Sketch.o
+                0x000004c4                _Z4scanv
+ .text.loop     0x0000052c       0x28 Sketch.o
+                0x0000052c                loop
  .text._ZN14HardwareSerial9availableEv
-                0x000002cc       0x18 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000002cc                _ZN14HardwareSerial9availableEv
+                0x00000554       0x18 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000554                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x000002e4       0x1c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000002e4                _ZN14HardwareSerial4peekEv
+                0x0000056c       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000056c                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000300       0x28 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000300                _ZN14HardwareSerial4readEv
+                0x00000588       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000588                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x00000328       0x1e C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000328                _ZN14HardwareSerial17availableForWriteEv
+                0x000005b0       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005b0                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x00000346       0x1c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000346                _Z14serialEventRunv
+                0x000005ce       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005ce                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00000362       0x42 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000362                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x000005ea       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005ea                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x000003a4       0x8e C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000003a4                _ZN14HardwareSerial5writeEh
+                0x0000062c       0x8e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000062c                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x00000432       0x44 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000432                _ZN14HardwareSerial5flushEv
+                0x000006ba       0x44 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006ba                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x00000476       0xca C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000476                _ZN14HardwareSerial5beginEmh
+                0x000006fe       0xca C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000006fe                _ZN14HardwareSerial5beginEmh
  .text._ZN5Print17availableForWriteEv
-                0x00000540        0x6 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000540                _ZN5Print17availableForWriteEv
+                0x000007c8        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000007c8                _ZN5Print17availableForWriteEv
  .text.__vector_18
-                0x00000546       0x64 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000546                __vector_18
+                0x000007ce       0x64 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000007ce                __vector_18
  .text.__vector_19
-                0x000005aa       0x4c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000005aa                __vector_19
+                0x00000832       0x4c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000832                __vector_19
  .text._Z17Serial0_availablev
-                0x000005f6       0x14 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000005f6                _Z17Serial0_availablev
+                0x0000087e       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000087e                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x0000060a       0x5a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000892       0x5a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x00000664        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000664                initVariant
+                0x000008ec        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000008ec                initVariant
  .text.startup.main
-                0x00000666       0x1e C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000666                main
+                0x000008ee       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000008ee                main
  .text._ZN5Print5writeEPKhj
-                0x00000684       0x54 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000684                _ZN5Print5writeEPKhj
+                0x0000090c       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000090c                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x000006d8       0x2a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000006d8                _ZN5Print5writeEPKc
+                0x00000960       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000960                _ZN5Print5writeEPKc
  .text._ZN5Print5printEPKc
-                0x00000702        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000702                _ZN5Print5printEPKc
+                0x0000098a        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000098a                _ZN5Print5printEPKc
  .text._ZN5Print7printlnEv
-                0x00000706        0x8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000706                _ZN5Print7printlnEv
+                0x0000098e        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000098e                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x0000070e       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000070e                _ZN5Print7printlnEPKc
+                0x00000996       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000996                _ZN5Print7printlnEPKc
  .text.__vector_16
-                0x00000732       0x94 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000732                __vector_16
- .text.micros   0x000007c6       0x4a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000007c6                micros
- .text.delay    0x00000810       0x78 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000810                delay
- .text.init     0x00000888       0x76 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000888                init
+                0x000009ba       0x94 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x000009ba                __vector_16
+ .text.micros   0x00000a4e       0x4a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000a4e                micros
+ .text.delay    0x00000a98       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000a98                delay
+ .text.init     0x00000b10       0x76 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000b10                init
  .text._ZN14SoftwareSerial4readEv
-                0x000008fe       0x42 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x000008fe                _ZN14SoftwareSerial4readEv
+                0x00000b86       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000b86                _ZN14SoftwareSerial4readEv
  .text._ZN14SoftwareSerial5writeEh
-                0x00000940       0xa0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000940                _ZN14SoftwareSerial5writeEh
+                0x00000bc8       0xa0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000bc8                _ZN14SoftwareSerial5writeEh
  .text._ZN14SoftwareSerial5flushEv
-                0x000009e0        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x000009e0                _ZN14SoftwareSerial5flushEv
+                0x00000c68        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c68                _ZN14SoftwareSerial5flushEv
  .text._ZN14SoftwareSerial4peekEv
-                0x000009e2       0x30 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x000009e2                _ZN14SoftwareSerial4peekEv
+                0x00000c6a       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c6a                _ZN14SoftwareSerial4peekEv
  .text._ZN14SoftwareSerial9availableEv
-                0x00000a12       0x30 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000a12                _ZN14SoftwareSerial9availableEv
+                0x00000c9a       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c9a                _ZN14SoftwareSerial9availableEv
  .text._ZN14SoftwareSerial13stopListeningEv
-                0x00000a42       0x2c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000a42                _ZN14SoftwareSerial13stopListeningEv
+                0x00000cca       0x2c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000cca                _ZN14SoftwareSerial13stopListeningEv
  .text._ZN14SoftwareSerial6listenEv
-                0x00000a6e       0x52 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000a6e                _ZN14SoftwareSerial6listenEv
+                0x00000cf6       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000cf6                _ZN14SoftwareSerial6listenEv
  .text.__vector_3
-                0x00000ac0       0xf4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000ac0                __vector_5
-                0x00000ac0                __vector_4
-                0x00000ac0                __vector_3
+                0x00000d48       0xf4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000d48                __vector_5
+                0x00000d48                __vector_4
+                0x00000d48                __vector_3
  .text._ZN14SoftwareSerialD2Ev
-                0x00000bb4        0xe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000bb4                _ZN14SoftwareSerialD1Ev
-                0x00000bb4                _ZN14SoftwareSerialD2Ev
+                0x00000e3c        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000e3c                _ZN14SoftwareSerialD1Ev
+                0x00000e3c                _ZN14SoftwareSerialD2Ev
  .text._ZN14SoftwareSerial5setTXEh
-                0x00000bc2       0x52 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000bc2                _ZN14SoftwareSerial5setTXEh
+                0x00000e4a       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000e4a                _ZN14SoftwareSerial5setTXEh
  .text._ZN14SoftwareSerial5setRXEh
-                0x00000c14       0x52 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000c14                _ZN14SoftwareSerial5setRXEh
+                0x00000e9c       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000e9c                _ZN14SoftwareSerial5setRXEh
  .text._ZN14SoftwareSerialC2Ehhb
-                0x00000c66       0x56 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000c66                _ZN14SoftwareSerialC1Ehhb
-                0x00000c66                _ZN14SoftwareSerialC2Ehhb
+                0x00000eee       0x56 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000eee                _ZN14SoftwareSerialC1Ehhb
+                0x00000eee                _ZN14SoftwareSerialC2Ehhb
  .text._ZN14SoftwareSerial5beginEl
-                0x00000cbc      0x11c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000cbc                _ZN14SoftwareSerial5beginEl
- .text.__empty  0x00000dd8        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x00000dd8                yield
+                0x00000f44      0x11c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000f44                _ZN14SoftwareSerial5beginEl
+ .text.__empty  0x00001060        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00001060                yield
  .text.turnOffPWM
-                0x00000dda       0x52 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x00000e2c       0x78 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000e2c                pinMode
+                0x00001062       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x000010b4       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000010b4                pinMode
  .text.digitalWrite
-                0x00000ea4       0x5e C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000ea4                digitalWrite
+                0x0000112c       0x5e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000112c                digitalWrite
  .text.libgcc.div
-                0x00000f02       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                0x00000f02                _div
-                0x00000f02                __divmodhi4
+                0x0000118a       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x0000118a                _div
+                0x0000118a                __divmodhi4
  .text.libgcc.div
-                0x00000f2a       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000f2a                __udivmodsi4
+                0x000011b2       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x000011b2                __udivmodsi4
  .text.libgcc.div
-                0x00000f6e       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                0x00000f6e                __divmodsi4
+                0x000011f6       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000011f6                __divmodsi4
  .text.libgcc.div
-                0x00000f9c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
-                0x00000f9c                __negsi2
+                0x00001224       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x00001224                __negsi2
  .text.libgcc.div
-                0x00000fac       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x00000fac                __udivmodhi4
- .text.libgcc   0x00000fd4        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x00000fd4                __tablejump2__
-                0x00000fe0                . = ALIGN (0x2)
+                0x00001234       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001234                __udivmodhi4
+ .text.libgcc   0x0000125c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000125c                __tablejump2__
+                0x00001268                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000fe0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00000fe0                _exit
-                0x00000fe0                exit
+ .fini9         0x00001268        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00001268                _exit
+                0x00001268                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00000fe0       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x00000fe0                __do_global_dtors
+ .fini6         0x00001268       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x00001268                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -900,11 +910,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000ff6        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x0000127e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ffa                _etext = .
+                0x00001282                _etext = .
 
-.data           0x00800100       0x9a load address 0x00000ffa
+.data           0x00800100       0x7e load address 0x00001282
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -917,72 +927,74 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x0080010a       0x5c Sketch.o
+                0x0080010a       0x41 Sketch.o
+                                 0x42 (size before relaxing)
  .rodata._ZTV14HardwareSerial
-                0x00800166       0x12 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00800166                _ZTV14HardwareSerial
+                0x0080014b       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0080014b                _ZTV14HardwareSerial
  .rodata.str1.1
-                0x00800178        0xf C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0080015d        0xf C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV14SoftwareSerial
-                0x00800187       0x12 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800187                _ZTV14SoftwareSerial
+                0x0080016c       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080016c                _ZTV14SoftwareSerial
  *(.gnu.linkonce.d*)
-                0x0080019a                . = ALIGN (0x2)
- *fill*         0x00800199        0x1 
-                0x0080019a                _edata = .
-                0x0080019a                PROVIDE (__data_end, .)
+                0x0080017e                . = ALIGN (0x2)
+                0x0080017e                _edata = .
+                0x0080017e                PROVIDE (__data_end, .)
 
-.bss            0x0080019a      0x130
-                0x0080019a                PROVIDE (__bss_start, .)
+.bss            0x0080017e      0x1dd
+                0x0080017e                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.UUID_RSSI
-                0x0080019a        0x1 Sketch.o
-                0x0080019a                UUID_RSSI
- .bss.scanned   0x0080019b        0x1 Sketch.o
-                0x0080019b                scanned
- .bss.value_RSSI
-                0x0080019c        0x3 Sketch.o
-                0x0080019c                value_RSSI
- .bss.UUID      0x0080019f       0x20 Sketch.o
-                0x0080019f                UUID
+ .bss.beacon6   0x0080017e       0x23 Sketch.o
+                0x0080017e                beacon6
+ .bss.beacon5   0x008001a1       0x23 Sketch.o
+                0x008001a1                beacon5
+ .bss.beacon4   0x008001c4       0x23 Sketch.o
+                0x008001c4                beacon4
+ .bss.beacon3   0x008001e7       0x23 Sketch.o
+                0x008001e7                beacon3
+ .bss.beacon2   0x0080020a       0x23 Sketch.o
+                0x0080020a                beacon2
+ .bss.beacon1   0x0080022d       0x23 Sketch.o
+                0x0080022d                beacon1
  .bss.incomingByte
-                0x008001bf        0x2 Sketch.o
-                0x008001bf                incomingByte
- .bss.BTSerial  0x008001c1       0x1f Sketch.o
-                0x008001c1                BTSerial
- .bss.Serial    0x008001e0       0x9d C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x008001e0                Serial
+                0x00800250        0x2 Sketch.o
+                0x00800250                incomingByte
+ .bss.BTSerial  0x00800252       0x1f Sketch.o
+                0x00800252                BTSerial
+ .bss.Serial    0x00800271       0x9d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800271                Serial
  .bss.timer0_fract
-                0x0080027d        0x1 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0080030e        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x0080027e        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0080027e                timer0_millis
+                0x0080030f        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x0080030f                timer0_millis
  .bss.timer0_overflow_count
-                0x00800282        0x4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00800282                timer0_overflow_count
+                0x00800313        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00800313                timer0_overflow_count
  .bss._ZN14SoftwareSerial20_receive_buffer_headE
-                0x00800286        0x1 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800286                _ZN14SoftwareSerial20_receive_buffer_headE
+                0x00800317        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00800317                _ZN14SoftwareSerial20_receive_buffer_headE
  .bss._ZN14SoftwareSerial20_receive_buffer_tailE
-                0x00800287        0x1 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800287                _ZN14SoftwareSerial20_receive_buffer_tailE
+                0x00800318        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00800318                _ZN14SoftwareSerial20_receive_buffer_tailE
  .bss._ZN14SoftwareSerial15_receive_bufferE
-                0x00800288       0x40 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800288                _ZN14SoftwareSerial15_receive_bufferE
+                0x00800319       0x40 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00800319                _ZN14SoftwareSerial15_receive_bufferE
  .bss._ZN14SoftwareSerial13active_objectE
-                0x008002c8        0x2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x008002c8                _ZN14SoftwareSerial13active_objectE
+                0x00800359        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00800359                _ZN14SoftwareSerial13active_objectE
  *(COMMON)
-                0x008002ca                PROVIDE (__bss_end, .)
-                0x00000ffa                __data_load_start = LOADADDR (.data)
-                0x00001094                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0080035b                PROVIDE (__bss_end, .)
+                0x00001282                __data_load_start = LOADADDR (.data)
+                0x00001300                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002ca        0x0
+.noinit         0x0080035b        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008002ca                _end = .
+                0x0080035b                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -1026,14 +1038,14 @@ END GROUP
  *(.comment)
  .comment       0x00000000       0x30 Sketch.o
                                  0x31 (size before relaxing)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .comment       0x00000030       0x31 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000030       0x31 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x40
@@ -1055,112 +1067,112 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x398
+.debug_aranges  0x00000000      0x3b0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x70 Sketch.o
+                0x00000000       0x88 Sketch.o
  .debug_aranges
-                0x00000070       0x68 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000088       0x68 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x000000d8       0x48 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000000f0       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .debug_aranges
-                0x00000120       0x30 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000138       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000150      0x100 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000168      0x100 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000250       0x48 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000268       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x00000298       0xa8 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x000002b0       0xa8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .debug_aranges
-                0x00000340       0x20 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00000358       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
  .debug_aranges
-                0x00000360       0x38 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000378       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xa59b
+.debug_info     0x00000000     0xa8e9
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0x8d9 Sketch.o
- .debug_info    0x00000ecd     0x1e89 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x00002d56     0x1b16 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x0000486c      0x237 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00004aa3     0x28ff C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x000073a2      0x2cb C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x0000766d     0x28f2 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_info    0x00009f5f       0x3e C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x00009f9d      0x5fe C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x000005f4      0xc27 Sketch.o
+ .debug_info    0x0000121b     0x1e89 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x000030a4     0x1b16 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00004bba      0x237 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00004df1     0x28ff C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x000076f0      0x2cb C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x000079bb     0x28f2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_info    0x0000a2ad       0x3e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x0000a2eb      0x5fe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_abbrev   0x00000000     0x1f67
+.debug_abbrev   0x00000000     0x1fdd
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x348 Sketch.o
- .debug_abbrev  0x000008ea      0x432 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00000d1c      0x3ce C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x000010ea      0x12d C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00001217      0x47a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00001691      0x146 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x000017d7      0x60b C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_abbrev  0x00001de2       0x2a C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00001e0c      0x15b C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x000005a2      0x3be Sketch.o
+ .debug_abbrev  0x00000960      0x432 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00000d92      0x3ce C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00001160      0x12d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x0000128d      0x47a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001707      0x146 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x0000184d      0x60b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_abbrev  0x00001e58       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00001e82      0x15b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_line     0x00000000     0x2096
+.debug_line     0x00000000     0x21a6
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133      0x3ca Sketch.o
- .debug_line    0x000004fd      0x426 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x00000923      0x28c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x00000baf      0x165 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00000d14      0x685 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00001399      0x299 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x00001632      0x7d1 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_line    0x00001e03       0x41 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x00001e44      0x252 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00000133      0x4da Sketch.o
+ .debug_line    0x0000060d      0x426 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000a33      0x28c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00000cbf      0x165 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000e24      0x685 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x000014a9      0x299 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00001742      0x7d1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_line    0x00001f13       0x41 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00001f54      0x252 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_frame    0x00000000      0xa14
+.debug_frame    0x00000000      0xab0
  *(.debug_frame)
- .debug_frame   0x00000000       0xec Sketch.o
- .debug_frame   0x000000ec      0x110 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x000001fc       0xe0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_frame   0x000002dc       0x54 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x00000330      0x3ac C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x000006dc       0xc4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x000007a0      0x1d4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_frame   0x00000974       0x24 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_frame   0x00000998       0x7c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000000      0x188 Sketch.o
+ .debug_frame   0x00000188      0x110 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x00000298       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x00000378       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000003cc      0x3ac C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00000778       0xc4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x0000083c      0x1d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_frame   0x00000a10       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000a34       0x7c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_str      0x00000000     0x262f
+.debug_str      0x00000000     0x26e1
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x4eb Sketch.o
-                                0x574 (size before relaxing)
- .debug_str     0x000006f3     0x1311 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00000208      0x5d5 Sketch.o
+                                0x665 (size before relaxing)
+ .debug_str     0x000007dd     0x12d9 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x15f9 (size before relaxing)
- .debug_str     0x00001a04       0x86 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_str     0x00001ab6       0x86 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
                                0x1415 (size before relaxing)
- .debug_str     0x00001a8a       0x37 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00001b3c       0x37 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                                 0x2c1 (size before relaxing)
- .debug_str     0x00001ac1      0x3b9 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00001b73      0x3b9 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
                                0x124f (size before relaxing)
- .debug_str     0x00001e7a      0x15c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x00001f2c      0x15c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                                 0x257 (size before relaxing)
- .debug_str     0x00001fd6      0x5d4 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_str     0x00002088      0x5d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
                                0x1938 (size before relaxing)
- .debug_str     0x000025aa       0x1c C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x0000265c       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
                                 0x14c (size before relaxing)
- .debug_str     0x000025c6       0x69 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00002678       0x69 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2bc (size before relaxing)
 
-.debug_loc      0x00000000     0x39e8
+.debug_loc      0x00000000     0x3c82
  *(.debug_loc)
- .debug_loc     0x00000000      0x210 Sketch.o
- .debug_loc     0x00000210      0x482 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x00000692      0x1b0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x00000842     0x1c87 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x000024c9      0x28d C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x00002756      0xc96 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_loc     0x000033ec      0x5fc C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00000000      0x4aa Sketch.o
+ .debug_loc     0x000004aa      0x482 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x0000092c      0x1b0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00000adc     0x1c87 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002763      0x28d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x000029f0      0xc96 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_loc     0x00003686      0x5fc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1183,14 +1195,14 @@ END GROUP
 .debug_ranges   0x00000000      0x3b0
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x90 Sketch.o
- .debug_ranges  0x00000090       0x58 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x000000e8       0x38 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_ranges  0x00000120       0x20 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000140      0x120 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000260       0x38 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000298       0xe0 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_ranges  0x00000378       0x10 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_ranges  0x00000388       0x28 C:\Users\andre\Documents\GitKraken\pro4E\atmel_pro4\projectBeacon\projectBeacon\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000090       0x58 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x000000e8       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000120       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000140      0x120 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000260       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000298       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_ranges  0x00000378       0x10 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000388       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macro
  *(.debug_macro)
