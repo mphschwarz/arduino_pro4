@@ -887,7 +887,7 @@ void scan()
 		{
 			boolean state_zero = true;
        
-			for(int i = 0; i < 8; i++)
+			for(int i = 0; i < 8; i++)			//search for !=0 in FactoryID
 			{         
 				if(readAnswer() != 48)
      4ec:	0e 94 c3 00 	call	0x186	; 0x186 <_Z10readAnswerv>
@@ -902,7 +902,7 @@ void scan()
 		{
 			boolean state_zero = true;
        
-			for(int i = 0; i < 8; i++)
+			for(int i = 0; i < 8; i++)			//search for !=0 in FactoryID
      4f8:	c9 f7       	brne	.-14     	; 0x4ec <_Z4scanv+0x28>
 				if(readAnswer() != 48)
 				{
