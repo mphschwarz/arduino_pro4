@@ -10,10 +10,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/nano_EEPROM.dir/DependInfo.cmake"
   "/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/nano_CORE.dir/DependInfo.cmake"
   )
 

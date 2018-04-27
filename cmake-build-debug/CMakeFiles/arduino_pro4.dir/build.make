@@ -94,6 +94,7 @@ arduino_pro4_EXTERNAL_OBJECTS =
 
 arduino_pro4.elf: CMakeFiles/arduino_pro4.dir/arduino_pro4_arduino_pro4.ino.cpp.obj
 arduino_pro4.elf: CMakeFiles/arduino_pro4.dir/build.make
+arduino_pro4.elf: libnano_EEPROM.a
 arduino_pro4.elf: libnano_CORE.a
 arduino_pro4.elf: CMakeFiles/arduino_pro4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable arduino_pro4.elf"

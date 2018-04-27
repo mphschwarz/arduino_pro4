@@ -9,6 +9,22 @@
 /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4_arduino_pro4.ino.cpp
 Arduino.h
 -
+EEPROM.h
+-
+../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/USBAPI.h
+/home/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/USBAPI.h
+../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial.h
+/home/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial.h
+../../../../../opt/arduino-1.8.5/hardware/tools/avr/avr/include/stdlib.h
+/home/opt/arduino-1.8.5/hardware/tools/avr/avr/include/stdlib.h
 Arduino.h
 /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Arduino.h
+
+/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src/EEPROM.h
+inttypes.h
+-
+avr/eeprom.h
+-
+avr/io.h
+-
 

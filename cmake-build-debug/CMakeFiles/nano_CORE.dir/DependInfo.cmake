@@ -17,6 +17,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/CDC.cpp" "/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles/nano_CORE.dir/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
@@ -41,6 +44,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"
+  "/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"
   )
 
 # Targets to which this target links.

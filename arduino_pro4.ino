@@ -30,12 +30,16 @@ void setup() {
     pinMode(13, OUTPUT);
     pinSetup();
     resetModule();
-    for (int i = 0; i < EEPROM.length(); i++) {
-        EEPROM.write(i, i + 2);
-    }
+    // for (int i = 0; i < EEPROM.length(); i++) {
+    //     EEPROM.write(i, i + 2);
+    // }
+    Serial.write('\n');
+    delay(10);
+    Serial.flush();
 }
 
 void loop() {
+
     if (Serial.available() > 0) {
         inventoryManager();
     } else {
@@ -50,8 +54,8 @@ void inventoryManager() {
     char value[4] = {' ', ' ', ' ', '\0'};
     char temp = ' ';
     unsigned counter = 0;
-    delay(1);
     while (Serial.available() > 0) {
+        delay(1);
         temp = Serial.read();
         if (temp != ';') {  //';' terminates instruction
             if (counter == 0) {
@@ -77,7 +81,8 @@ void inventoryManager() {
             */
 
             if (opcode == 'q') {
-                Serial.println(EEPROM.read(a));
+                int outbyte = EEPROM.read(a);
+                Serial.print(outbyte); Serial.print("\n");
             } else if (opcode == 'p') {
                 EEPROM.write(a, v);
             }
