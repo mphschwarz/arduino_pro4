@@ -60,38 +60,6 @@ CMAKE_SOURCE_DIR = /home/mschwarz/fhnw/pro4E/arduino_pro4
 CMAKE_BINARY_DIR = /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/upload.dir
-
-# All Build rule for target.
-CMakeFiles/upload.dir/all: CMakeFiles/arduino_pro4-upload.dir/all
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/depend
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles --progress-num= "Built target upload"
-.PHONY : CMakeFiles/upload.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 28
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/upload.dir/rule
-
-# Convenience name for target.
-upload: CMakeFiles/upload.dir/rule
-
-.PHONY : upload
-
-# clean rule for target.
-CMakeFiles/upload.dir/clean:
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/clean
-.PHONY : CMakeFiles/upload.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/upload.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/arduino_pro4-upload.dir
 
 # All Build rule for target.
@@ -103,7 +71,7 @@ CMakeFiles/arduino_pro4-upload.dir/all: CMakeFiles/arduino_pro4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arduino_pro4-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arduino_pro4-upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/arduino_pro4-upload.dir/rule
@@ -135,7 +103,7 @@ CMakeFiles/arduino_pro4-size.dir/all: CMakeFiles/arduino_pro4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arduino_pro4-size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arduino_pro4-size.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/arduino_pro4-size.dir/rule
@@ -159,6 +127,7 @@ clean: CMakeFiles/arduino_pro4-size.dir/clean
 # Target rules for target CMakeFiles/arduino_pro4.dir
 
 # All Build rule for target.
+CMakeFiles/arduino_pro4.dir/all: CMakeFiles/nano_EEPROM.dir/all
 CMakeFiles/arduino_pro4.dir/all: CMakeFiles/nano_CORE.dir/all
 	$(MAKE) -f CMakeFiles/arduino_pro4.dir/build.make CMakeFiles/arduino_pro4.dir/depend
 	$(MAKE) -f CMakeFiles/arduino_pro4.dir/build.make CMakeFiles/arduino_pro4.dir/build
@@ -172,7 +141,7 @@ all: CMakeFiles/arduino_pro4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arduino_pro4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arduino_pro4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/arduino_pro4.dir/rule
@@ -189,6 +158,75 @@ CMakeFiles/arduino_pro4.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/arduino_pro4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/upload.dir
+
+# All Build rule for target.
+CMakeFiles/upload.dir/all: CMakeFiles/arduino_pro4-upload.dir/all
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/depend
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles --progress-num= "Built target upload"
+.PHONY : CMakeFiles/upload.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/upload.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 29
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/upload.dir/rule
+
+# Convenience name for target.
+upload: CMakeFiles/upload.dir/rule
+
+.PHONY : upload
+
+# clean rule for target.
+CMakeFiles/upload.dir/clean:
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/clean
+.PHONY : CMakeFiles/upload.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/upload.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/nano_EEPROM.dir
+
+# All Build rule for target.
+CMakeFiles/nano_EEPROM.dir/all: CMakeFiles/nano_CORE.dir/all
+	$(MAKE) -f CMakeFiles/nano_EEPROM.dir/build.make CMakeFiles/nano_EEPROM.dir/depend
+	$(MAKE) -f CMakeFiles/nano_EEPROM.dir/build.make CMakeFiles/nano_EEPROM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles --progress-num=30 "Built target nano_EEPROM"
+.PHONY : CMakeFiles/nano_EEPROM.dir/all
+
+# Include target in all.
+all: CMakeFiles/nano_EEPROM.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/nano_EEPROM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 26
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nano_EEPROM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/nano_EEPROM.dir/rule
+
+# Convenience name for target.
+nano_EEPROM: CMakeFiles/nano_EEPROM.dir/rule
+
+.PHONY : nano_EEPROM
+
+# clean rule for target.
+CMakeFiles/nano_EEPROM.dir/clean:
+	$(MAKE) -f CMakeFiles/nano_EEPROM.dir/build.make CMakeFiles/nano_EEPROM.dir/clean
+.PHONY : CMakeFiles/nano_EEPROM.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/nano_EEPROM.dir/clean
 
 .PHONY : clean
 

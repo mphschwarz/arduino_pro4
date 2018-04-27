@@ -3,3 +3,4 @@
 
 CMakeFiles/arduino_pro4.dir/arduino_pro4_arduino_pro4.ino.cpp.obj
  /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/arduino_pro4_arduino_pro4.ino.cpp
+ /opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src/EEPROM.h

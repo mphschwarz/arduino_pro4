@@ -243,6 +243,9 @@ arduino_pro4_SOURCE_DIR:STATIC=/home/mschwarz/fhnw/pro4E/arduino_pro4
 //Dependencies for target
 nano_CORE_LIB_DEPENDS:STATIC=
 
+//Dependencies for the target
+nano_EEPROM_LIB_DEPENDS:STATIC=general;nano_CORE;
+
 
 ########################
 # INTERNAL cache entries

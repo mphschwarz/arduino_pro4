@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/clion-2017.2.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,19 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named upload
-
-# Build rule for target.
-upload: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 upload
-.PHONY : upload
-
-# fast build rule for target.
-upload/fast:
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
-.PHONY : upload/fast
 
 #=============================================================================
 # Target rules for targets named arduino_pro4-upload
@@ -161,6 +148,32 @@ arduino_pro4: cmake_check_build_system
 arduino_pro4/fast:
 	$(MAKE) -f CMakeFiles/arduino_pro4.dir/build.make CMakeFiles/arduino_pro4.dir/build
 .PHONY : arduino_pro4/fast
+
+#=============================================================================
+# Target rules for targets named upload
+
+# Build rule for target.
+upload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 upload
+.PHONY : upload
+
+# fast build rule for target.
+upload/fast:
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
+.PHONY : upload/fast
+
+#=============================================================================
+# Target rules for targets named nano_EEPROM
+
+# Build rule for target.
+nano_EEPROM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nano_EEPROM
+.PHONY : nano_EEPROM
+
+# fast build rule for target.
+nano_EEPROM/fast:
+	$(MAKE) -f CMakeFiles/nano_EEPROM.dir/build.make CMakeFiles/nano_EEPROM.dir/build
+.PHONY : nano_EEPROM/fast
 
 #=============================================================================
 # Target rules for targets named nano_CORE
@@ -856,12 +869,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... upload"
 	@echo "... edit_cache"
 	@echo "... arduino_pro4-upload"
 	@echo "... arduino_pro4-size"
 	@echo "... arduino_pro4"
+	@echo "... rebuild_cache"
+	@echo "... upload"
+	@echo "... nano_EEPROM"
 	@echo "... nano_CORE"
 	@echo "... arduino_pro4_arduino_pro4.ino.obj"
 	@echo "... arduino_pro4_arduino_pro4.ino.i"

@@ -17,26 +17,6 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="upload">
-				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
 				<Option type="4"/>
@@ -74,6 +54,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
@@ -95,6 +78,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
@@ -109,6 +95,74 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nano_EEPROM">
+				<Option output="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/libnano_EEPROM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/include"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 nano_EEPROM"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nano_EEPROM/fast">
+				<Option output="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/libnano_EEPROM.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/include"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/7.2.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 nano_EEPROM/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="nano_CORE">
 				<Option output="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug/libnano_CORE.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug"/>
@@ -116,6 +170,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
@@ -137,6 +194,9 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src"/>
+					<Add directory="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/opt/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
@@ -289,6 +349,9 @@
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/wiring_shift.c">
 			<Option target="nano_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src/EEPROM.h">
+			<Option target="nano_EEPROM"/>
 		</Unit>
 		<Unit filename="/home/mschwarz/fhnw/pro4E/arduino_pro4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

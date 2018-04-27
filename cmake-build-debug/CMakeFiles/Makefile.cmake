@@ -43,9 +43,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/upload.dir/DependInfo.cmake"
   "CMakeFiles/arduino_pro4-upload.dir/DependInfo.cmake"
   "CMakeFiles/arduino_pro4-size.dir/DependInfo.cmake"
   "CMakeFiles/arduino_pro4.dir/DependInfo.cmake"
+  "CMakeFiles/upload.dir/DependInfo.cmake"
+  "CMakeFiles/nano_EEPROM.dir/DependInfo.cmake"
   "CMakeFiles/nano_CORE.dir/DependInfo.cmake"
   )

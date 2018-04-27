@@ -7,11 +7,11 @@ C_FLAGS = -g -Os -w -ffunction-sections -fdata-sections -MMD -g -Os -w -ffunctio
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility 
 
 CXX_FLAGS = -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=10805 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I"/opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino" -I"/opt/arduino-1.8.5/libraries" -I"/opt/arduino-1.8.5/hardware/arduino/avr/variants/eightanaloginputs"
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/src -I/opt/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/utility 
 
