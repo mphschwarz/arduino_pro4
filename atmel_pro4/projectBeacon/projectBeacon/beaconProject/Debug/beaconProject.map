@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                              Sketch.o (_ZN14HardwareSerial5writeEh)
+                              Sketch.o (_ZN14HardwareSerial5beginEmh)
 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
                               Sketch.o (Serial)
 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
@@ -78,8 +78,31 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
+                              Sketch.o (strtol)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
                               C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o) (abort)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o) (isspace)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o) (errno)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o) (__ctype_isfalse)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o) (__mulsi3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o) (__muluhisi3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o) (__prologue_saves__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o) (__epilogue_restores__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x2               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
 
 Discarded input sections
 
@@ -90,8 +113,16 @@ Discarded input sections
  .bss           0x00000000        0x0 Sketch.o
  .text._Z4filti
                 0x00000000        0x2 Sketch.o
+ .rodata.str1.1
+                0x00000000       0x25 Sketch.o
+ .text._Z12printBeacons17BEACON_VALUES_DEC
+                0x00000000       0xba Sketch.o
  .text._Z11rssiComparev
                 0x00000000        0x2 Sketch.o
+ .text._Z19multiplexControlleri
+                0x00000000        0xc Sketch.o
+ .text._Z22castHexChararrToIntDecPc
+                0x00000000       0x24 Sketch.o
  .bss.endString
                 0x00000000        0x8 Sketch.o
  .group         0x00000000        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
@@ -128,6 +159,8 @@ Discarded input sections
                 0x00000000       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK6String
                 0x00000000       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPKc
+                0x00000000        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEc
                 0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
@@ -136,21 +169,15 @@ Discarded input sections
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK6String
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEc
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print11printNumberEmh
-                0x00000000       0x92 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEmi
-                0x00000000       0x1a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEhi
                 0x00000000        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
-                0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEji
-                0x00000000        0xc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEji
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
                 0x00000000       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
@@ -476,11 +503,112 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
+ .text.avr-libc
+                0x00000000      0x22c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
+ .comment       0x00000000       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtol.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
  .text.avr-libc
                 0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .comment       0x00000000       0x2d c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ COMMON         0x00000000        0x2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text.avr-libc
+                0x00000000        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x00000000       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x00000000       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x00000000       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
 
 Memory Configuration
 
@@ -609,7 +737,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1282
+.text           0x00000000     0x11f6
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -713,191 +841,206 @@ END GROUP
                 0x00000118                __vector_20
                 0x0000011c                . = ALIGN (0x2)
  *(.text.*)
+ .text._Z15vibroControllerb
+                0x0000011c       0x1c Sketch.o
+                0x0000011c                _Z15vibroControllerb
+ .text._Z13testComparingj
+                0x00000138       0x48 Sketch.o
+                0x00000138                _Z13testComparingj
  .text.startup._GLOBAL__sub_I_BTSerial
-                0x0000011c        0xe Sketch.o
+                0x00000180        0xe Sketch.o
  .text.exit._GLOBAL__sub_D_BTSerial
-                0x0000012a        0x8 Sketch.o
- .text._Z11sendCommandi.part.1
-                0x00000132       0x20 Sketch.o
+                0x0000018e        0x8 Sketch.o
+ .text._Z11sendCommandi.part.3
+                0x00000196       0x20 Sketch.o
  .text._Z11sendCommandi
-                0x00000152       0x34 Sketch.o
-                0x00000152                _Z11sendCommandi
+                0x000001b6       0x34 Sketch.o
+                0x000001b6                _Z11sendCommandi
  .text._Z10readAnswerv
-                0x00000186       0x1e Sketch.o
-                0x00000186                _Z10readAnswerv
+                0x000001ea       0x14 Sketch.o
+                0x000001ea                _Z10readAnswerv
  .text._Z13firstResponsev
-                0x000001a4       0x3a Sketch.o
-                0x000001a4                _Z13firstResponsev
- .text.setup    0x000001de       0x2a Sketch.o
-                0x000001de                setup
+                0x000001fe       0x3a Sketch.o
+                0x000001fe                _Z13firstResponsev
+ .text.setup    0x00000238       0x2a Sketch.o
+                0x00000238                setup
+ .text._Z12readValueDeci
+                0x00000262       0x50 Sketch.o
+                0x00000262                _Z12readValueDeci
  .text._Z12getUUID_RSSIv
-                0x00000208       0x5a Sketch.o
-                0x00000208                _Z12getUUID_RSSIv
- .text._Z12printBeacons16UUID_RSSI_values
-                0x00000262       0xa2 Sketch.o
-                0x00000262                _Z12printBeacons16UUID_RSSI_values
- .text._Z10saveBeaconi
-                0x00000304      0x1c0 Sketch.o
-                0x00000304                _Z10saveBeaconi
+                0x000002b2       0x76 Sketch.o
+                0x000002b2                _Z12getUUID_RSSIv
+ .text._Z13compareBeaconv
+                0x00000328       0x72 Sketch.o
+                0x00000328                _Z13compareBeaconv
+ .text._Z17scanClosestBeaconv
+                0x0000039a       0x62 Sketch.o
+                0x0000039a                _Z17scanClosestBeaconv
  .text._Z4scanv
-                0x000004c4       0x68 Sketch.o
-                0x000004c4                _Z4scanv
- .text.loop     0x0000052c       0x28 Sketch.o
-                0x0000052c                loop
+                0x000003fc        0x8 Sketch.o
+                0x000003fc                _Z4scanv
+ .text.loop     0x00000404       0x10 Sketch.o
+                0x00000404                loop
  .text._ZN14HardwareSerial9availableEv
-                0x00000554       0x18 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000554                _ZN14HardwareSerial9availableEv
+                0x00000414       0x18 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000414                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x0000056c       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000056c                _ZN14HardwareSerial4peekEv
+                0x0000042c       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000042c                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000588       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000588                _ZN14HardwareSerial4readEv
+                0x00000448       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000448                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x000005b0       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000005b0                _ZN14HardwareSerial17availableForWriteEv
+                0x00000470       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000470                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x000005ce       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000005ce                _Z14serialEventRunv
+                0x0000048e       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000048e                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x000005ea       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000005ea                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x000004aa       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000004aa                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x0000062c       0x8e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000062c                _ZN14HardwareSerial5writeEh
+                0x000004ec       0x8e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000004ec                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x000006ba       0x44 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000006ba                _ZN14HardwareSerial5flushEv
+                0x0000057a       0x44 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000057a                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x000006fe       0xca C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000006fe                _ZN14HardwareSerial5beginEmh
+                0x000005be       0xca C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000005be                _ZN14HardwareSerial5beginEmh
  .text._ZN5Print17availableForWriteEv
-                0x000007c8        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000007c8                _ZN5Print17availableForWriteEv
+                0x00000688        0x6 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000688                _ZN5Print17availableForWriteEv
  .text.__vector_18
-                0x000007ce       0x64 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000007ce                __vector_18
+                0x0000068e       0x64 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000068e                __vector_18
  .text.__vector_19
-                0x00000832       0x4c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000832                __vector_19
+                0x000006f2       0x4c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000006f2                __vector_19
  .text._Z17Serial0_availablev
-                0x0000087e       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x0000087e                _Z17Serial0_availablev
+                0x0000073e       0x14 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000073e                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00000892       0x5a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000752       0x5a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x000008ec        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000008ec                initVariant
+                0x000007ac        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000007ac                initVariant
  .text.startup.main
-                0x000008ee       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000008ee                main
+                0x000007ae       0x1e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000007ae                main
  .text._ZN5Print5writeEPKhj
-                0x0000090c       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                0x0000090c                _ZN5Print5writeEPKhj
+                0x000007cc       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000007cc                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00000960       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                0x00000960                _ZN5Print5writeEPKc
- .text._ZN5Print5printEPKc
-                0x0000098a        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                0x0000098a                _ZN5Print5printEPKc
+                0x00000820       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000820                _ZN5Print5writeEPKc
  .text._ZN5Print7printlnEv
-                0x0000098e        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                0x0000098e                _ZN5Print7printlnEv
- .text._ZN5Print7printlnEPKc
-                0x00000996       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                0x00000996                _ZN5Print7printlnEPKc
+                0x0000084a        0x8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000084a                _ZN5Print7printlnEv
+ .text._ZN5Print11printNumberEmh
+                0x00000852       0x92 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000852                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x000008e4       0x1a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000008e4                _ZN5Print5printEmi
+ .text._ZN5Print5printEji
+                0x000008fe        0xc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000008fe                _ZN5Print5printEji
+ .text._ZN5Print7printlnEji
+                0x0000090a       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000090a                _ZN5Print7printlnEji
  .text.__vector_16
-                0x000009ba       0x94 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x000009ba                __vector_16
- .text.micros   0x00000a4e       0x4a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00000a4e                micros
- .text.delay    0x00000a98       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00000a98                delay
- .text.init     0x00000b10       0x76 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00000b10                init
+                0x0000092e       0x94 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x0000092e                __vector_16
+ .text.micros   0x000009c2       0x4a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x000009c2                micros
+ .text.delay    0x00000a0c       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000a0c                delay
+ .text.init     0x00000a84       0x76 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000a84                init
  .text._ZN14SoftwareSerial4readEv
-                0x00000b86       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000b86                _ZN14SoftwareSerial4readEv
+                0x00000afa       0x42 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000afa                _ZN14SoftwareSerial4readEv
  .text._ZN14SoftwareSerial5writeEh
-                0x00000bc8       0xa0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000bc8                _ZN14SoftwareSerial5writeEh
+                0x00000b3c       0xa0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000b3c                _ZN14SoftwareSerial5writeEh
  .text._ZN14SoftwareSerial5flushEv
-                0x00000c68        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000c68                _ZN14SoftwareSerial5flushEv
+                0x00000bdc        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000bdc                _ZN14SoftwareSerial5flushEv
  .text._ZN14SoftwareSerial4peekEv
-                0x00000c6a       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000c6a                _ZN14SoftwareSerial4peekEv
+                0x00000bde       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000bde                _ZN14SoftwareSerial4peekEv
  .text._ZN14SoftwareSerial9availableEv
-                0x00000c9a       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000c9a                _ZN14SoftwareSerial9availableEv
+                0x00000c0e       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c0e                _ZN14SoftwareSerial9availableEv
  .text._ZN14SoftwareSerial13stopListeningEv
-                0x00000cca       0x2c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000cca                _ZN14SoftwareSerial13stopListeningEv
+                0x00000c3e       0x2c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c3e                _ZN14SoftwareSerial13stopListeningEv
  .text._ZN14SoftwareSerial6listenEv
-                0x00000cf6       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000cf6                _ZN14SoftwareSerial6listenEv
+                0x00000c6a       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000c6a                _ZN14SoftwareSerial6listenEv
  .text.__vector_3
-                0x00000d48       0xf4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000d48                __vector_5
-                0x00000d48                __vector_4
-                0x00000d48                __vector_3
+                0x00000cbc       0xf4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000cbc                __vector_5
+                0x00000cbc                __vector_4
+                0x00000cbc                __vector_3
  .text._ZN14SoftwareSerialD2Ev
-                0x00000e3c        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000e3c                _ZN14SoftwareSerialD1Ev
-                0x00000e3c                _ZN14SoftwareSerialD2Ev
+                0x00000db0        0xe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000db0                _ZN14SoftwareSerialD1Ev
+                0x00000db0                _ZN14SoftwareSerialD2Ev
  .text._ZN14SoftwareSerial5setTXEh
-                0x00000e4a       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000e4a                _ZN14SoftwareSerial5setTXEh
+                0x00000dbe       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000dbe                _ZN14SoftwareSerial5setTXEh
  .text._ZN14SoftwareSerial5setRXEh
-                0x00000e9c       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000e9c                _ZN14SoftwareSerial5setRXEh
+                0x00000e10       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000e10                _ZN14SoftwareSerial5setRXEh
  .text._ZN14SoftwareSerialC2Ehhb
-                0x00000eee       0x56 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000eee                _ZN14SoftwareSerialC1Ehhb
-                0x00000eee                _ZN14SoftwareSerialC2Ehhb
+                0x00000e62       0x56 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000e62                _ZN14SoftwareSerialC1Ehhb
+                0x00000e62                _ZN14SoftwareSerialC2Ehhb
  .text._ZN14SoftwareSerial5beginEl
-                0x00000f44      0x11c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00000f44                _ZN14SoftwareSerial5beginEl
- .text.__empty  0x00001060        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
-                0x00001060                yield
+                0x00000eb8      0x11c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x00000eb8                _ZN14SoftwareSerial5beginEl
+ .text.__empty  0x00000fd4        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00000fd4                yield
  .text.turnOffPWM
-                0x00001062       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x000010b4       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000010b4                pinMode
+                0x00000fd6       0x52 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00001028       0x78 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001028                pinMode
  .text.digitalWrite
-                0x0000112c       0x5e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000112c                digitalWrite
+                0x000010a0       0x5e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000010a0                digitalWrite
  .text.libgcc.div
-                0x0000118a       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                0x0000118a                _div
-                0x0000118a                __divmodhi4
+                0x000010fe       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x000010fe                _div
+                0x000010fe                __divmodhi4
  .text.libgcc.div
-                0x000011b2       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x000011b2                __udivmodsi4
+                0x00001126       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001126                __udivmodsi4
  .text.libgcc.div
-                0x000011f6       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                0x000011f6                __divmodsi4
+                0x0000116a       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x0000116a                __divmodsi4
  .text.libgcc.div
-                0x00001224       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
-                0x00001224                __negsi2
+                0x00001198       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x00001198                __negsi2
  .text.libgcc.div
-                0x00001234       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x00001234                __udivmodhi4
- .text.libgcc   0x0000125c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x0000125c                __tablejump2__
-                0x00001268                . = ALIGN (0x2)
+                0x000011a8       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x000011a8                __udivmodhi4
+ .text.libgcc   0x000011d0        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x000011d0                __tablejump2__
+                0x000011dc                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001268        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00001268                _exit
-                0x00001268                exit
+ .fini9         0x000011dc        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000011dc                _exit
+                0x000011dc                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00001268       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x00001268                __do_global_dtors
+ .fini6         0x000011dc       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x000011dc                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -910,11 +1053,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000127e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000011f2        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00001282                _etext = .
+                0x000011f6                _etext = .
 
-.data           0x00800100       0x7e load address 0x00001282
+.data           0x00800100       0x3e load address 0x000011f6
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -926,75 +1069,66 @@ END GROUP
                 0x00800108                command_AT
  *(.rodata)
  *(.rodata*)
- .rodata.str1.1
-                0x0080010a       0x41 Sketch.o
-                                 0x42 (size before relaxing)
  .rodata._ZTV14HardwareSerial
-                0x0080014b       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0080014b                _ZTV14HardwareSerial
+                0x0080010a       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0080010a                _ZTV14HardwareSerial
  .rodata.str1.1
-                0x0080015d        0xf C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0080011c        0xf C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV14SoftwareSerial
-                0x0080016c       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x0080016c                _ZTV14SoftwareSerial
+                0x0080012b       0x12 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080012b                _ZTV14SoftwareSerial
  *(.gnu.linkonce.d*)
-                0x0080017e                . = ALIGN (0x2)
-                0x0080017e                _edata = .
-                0x0080017e                PROVIDE (__data_end, .)
+                0x0080013e                . = ALIGN (0x2)
+ *fill*         0x0080013d        0x1 
+                0x0080013e                _edata = .
+                0x0080013e                PROVIDE (__data_end, .)
 
-.bss            0x0080017e      0x1dd
-                0x0080017e                PROVIDE (__bss_start, .)
+.bss            0x0080013e      0x112
+                0x0080013e                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.beacon6   0x0080017e       0x23 Sketch.o
-                0x0080017e                beacon6
- .bss.beacon5   0x008001a1       0x23 Sketch.o
-                0x008001a1                beacon5
- .bss.beacon4   0x008001c4       0x23 Sketch.o
-                0x008001c4                beacon4
- .bss.beacon3   0x008001e7       0x23 Sketch.o
-                0x008001e7                beacon3
- .bss.beacon2   0x0080020a       0x23 Sketch.o
-                0x0080020a                beacon2
- .bss.beacon1   0x0080022d       0x23 Sketch.o
-                0x0080022d                beacon1
- .bss.incomingByte
-                0x00800250        0x2 Sketch.o
-                0x00800250                incomingByte
- .bss.BTSerial  0x00800252       0x1f Sketch.o
-                0x00800252                BTSerial
- .bss.Serial    0x00800271       0x9d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00800271                Serial
+ .bss._ZZ13testComparingjE7compare
+                0x0080013e        0x2 Sketch.o
+ .bss.closest_Beacon
+                0x00800140        0x6 Sketch.o
+                0x00800140                closest_Beacon
+ .bss.firstBeacon
+                0x00800146        0x1 Sketch.o
+                0x00800146                firstBeacon
+ .bss.BTSerial  0x00800147       0x1f Sketch.o
+                0x00800147                BTSerial
+ .bss.Serial    0x00800166       0x9d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800166                Serial
  .bss.timer0_fract
-                0x0080030e        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00800203        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x0080030f        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x0080030f                timer0_millis
+                0x00800204        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00800204                timer0_millis
  .bss.timer0_overflow_count
-                0x00800313        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00800313                timer0_overflow_count
+                0x00800208        0x4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00800208                timer0_overflow_count
  .bss._ZN14SoftwareSerial20_receive_buffer_headE
-                0x00800317        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800317                _ZN14SoftwareSerial20_receive_buffer_headE
+                0x0080020c        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080020c                _ZN14SoftwareSerial20_receive_buffer_headE
  .bss._ZN14SoftwareSerial20_receive_buffer_tailE
-                0x00800318        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800318                _ZN14SoftwareSerial20_receive_buffer_tailE
+                0x0080020d        0x1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080020d                _ZN14SoftwareSerial20_receive_buffer_tailE
  .bss._ZN14SoftwareSerial15_receive_bufferE
-                0x00800319       0x40 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800319                _ZN14SoftwareSerial15_receive_bufferE
+                0x0080020e       0x40 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080020e                _ZN14SoftwareSerial15_receive_bufferE
  .bss._ZN14SoftwareSerial13active_objectE
-                0x00800359        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
-                0x00800359                _ZN14SoftwareSerial13active_objectE
+                0x0080024e        0x2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x0080024e                _ZN14SoftwareSerial13active_objectE
  *(COMMON)
-                0x0080035b                PROVIDE (__bss_end, .)
-                0x00001282                __data_load_start = LOADADDR (.data)
-                0x00001300                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800250                PROVIDE (__bss_end, .)
+                0x000011f6                __data_load_start = LOADADDR (.data)
+                0x00001234                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080035b        0x0
+.noinit         0x00800250        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x0080035b                _end = .
+                0x00800250                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -1067,112 +1201,112 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x3b0
+.debug_aranges  0x00000000      0x3e0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x88 Sketch.o
+                0x00000000       0xb8 Sketch.o
  .debug_aranges
-                0x00000088       0x68 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000000b8       0x68 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x000000f0       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000120       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .debug_aranges
-                0x00000138       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x00000168       0x30 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000168      0x100 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000198      0x100 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000268       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000298       0x48 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x000002b0       0xa8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+                0x000002e0       0xa8 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
  .debug_aranges
-                0x00000358       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00000388       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
  .debug_aranges
-                0x00000378       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000003a8       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xa8e9
+.debug_info     0x00000000     0xaa03
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0xc27 Sketch.o
- .debug_info    0x0000121b     0x1e89 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x000030a4     0x1b16 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00004bba      0x237 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00004df1     0x28ff C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x000076f0      0x2cb C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x000079bb     0x28f2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_info    0x0000a2ad       0x3e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x0000a2eb      0x5fe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x000005f4      0xd41 Sketch.o
+ .debug_info    0x00001335     0x1e89 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x000031be     0x1b16 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00004cd4      0x237 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00004f0b     0x28ff C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0000780a      0x2cb C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00007ad5     0x28f2 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_info    0x0000a3c7       0x3e C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x0000a405      0x5fe C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_abbrev   0x00000000     0x1fdd
+.debug_abbrev   0x00000000     0x20a4
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x3be Sketch.o
- .debug_abbrev  0x00000960      0x432 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00000d92      0x3ce C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x00001160      0x12d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x0000128d      0x47a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00001707      0x146 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x0000184d      0x60b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_abbrev  0x00001e58       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00001e82      0x15b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x000005a2      0x485 Sketch.o
+ .debug_abbrev  0x00000a27      0x432 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00000e59      0x3ce C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00001227      0x12d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00001354      0x47a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x000017ce      0x146 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00001914      0x60b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_abbrev  0x00001f1f       0x2a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00001f49      0x15b C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_line     0x00000000     0x21a6
+.debug_line     0x00000000     0x2270
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133      0x4da Sketch.o
- .debug_line    0x0000060d      0x426 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x00000a33      0x28c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x00000cbf      0x165 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00000e24      0x685 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x000014a9      0x299 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x00001742      0x7d1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_line    0x00001f13       0x41 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x00001f54      0x252 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00000133      0x5a4 Sketch.o
+ .debug_line    0x000006d7      0x426 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000afd      0x28c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00000d89      0x165 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000eee      0x685 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00001573      0x299 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x0000180c      0x7d1 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_line    0x00001fdd       0x41 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x0000201e      0x252 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_frame    0x00000000      0xab0
+.debug_frame    0x00000000      0xb1c
  *(.debug_frame)
- .debug_frame   0x00000000      0x188 Sketch.o
- .debug_frame   0x00000188      0x110 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x00000298       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_frame   0x00000378       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x000003cc      0x3ac C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x00000778       0xc4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x0000083c      0x1d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_frame   0x00000a10       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_frame   0x00000a34       0x7c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000000      0x1f4 Sketch.o
+ .debug_frame   0x000001f4      0x110 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x00000304       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x000003e4       0x54 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x00000438      0x3ac C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x000007e4       0xc4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x000008a8      0x1d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_frame   0x00000a7c       0x24 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000aa0       0x7c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_str      0x00000000     0x26e1
+.debug_str      0x00000000     0x2807
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x5d5 Sketch.o
-                                0x665 (size before relaxing)
- .debug_str     0x000007dd     0x12d9 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00000208      0x6f2 Sketch.o
+                                0x789 (size before relaxing)
+ .debug_str     0x000008fa     0x130a C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x15f9 (size before relaxing)
- .debug_str     0x00001ab6       0x86 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_str     0x00001c04       0x86 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
                                0x1415 (size before relaxing)
- .debug_str     0x00001b3c       0x37 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00001c8a       0x37 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                                 0x2c1 (size before relaxing)
- .debug_str     0x00001b73      0x3b9 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00001cc1      0x391 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
                                0x124f (size before relaxing)
- .debug_str     0x00001f2c      0x15c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x00002052      0x15c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                                 0x257 (size before relaxing)
- .debug_str     0x00002088      0x5d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_str     0x000021ae      0x5d4 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
                                0x1938 (size before relaxing)
- .debug_str     0x0000265c       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00002782       0x1c C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
                                 0x14c (size before relaxing)
- .debug_str     0x00002678       0x69 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x0000279e       0x69 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2bc (size before relaxing)
 
-.debug_loc      0x00000000     0x3c82
+.debug_loc      0x00000000     0x3d94
  *(.debug_loc)
- .debug_loc     0x00000000      0x4aa Sketch.o
- .debug_loc     0x000004aa      0x482 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x0000092c      0x1b0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x00000adc     0x1c87 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00002763      0x28d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x000029f0      0xc96 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_loc     0x00003686      0x5fc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00000000      0x5bc Sketch.o
+ .debug_loc     0x000005bc      0x482 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00000a3e      0x1b0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00000bee     0x1c87 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002875      0x28d C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x00002b02      0xc96 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_loc     0x00003798      0x5fc C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1192,17 +1326,17 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x3b0
+.debug_ranges   0x00000000      0x3f8
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x90 Sketch.o
- .debug_ranges  0x00000090       0x58 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x000000e8       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_ranges  0x00000120       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000140      0x120 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000260       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000298       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
- .debug_ranges  0x00000378       0x10 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_ranges  0x00000388       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000000       0xd8 Sketch.o
+ .debug_ranges  0x000000d8       0x58 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x00000130       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000168       0x20 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000188      0x120 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x000002a8       0x38 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x000002e0       0xe0 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(SoftwareSerial.o)
+ .debug_ranges  0x000003c0       0x10 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x000003d0       0x28 C:\Users\andre\DOCUME~1\GITKRA~1\pro4E\ARDUIN~1\ATMEL_~1\PROJEC~1\PROJEC~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macro
  *(.debug_macro)
