@@ -1,23 +1,4 @@
 ﻿
-<<<<<<< HEAD
-#include <Arduino.h>
-#include <SoftwareSerial.h>
-#define LEDPORT PORTD
-#define LEDDDR DDRD
-
-SoftwareSerial mySerial = SoftwareSerial(0,1);
-void setup() {
-  LEDDDR = 0xFF;
-}
-
-void loop() {
-// LED 
-LEDPORT = 0xFF;
-_delay_ms(500);
-LEDPORT = 0x00;
-_delay_ms(500);
-}
-=======
 #include <Arduino.h>
 
 #include <SoftwareSerial.h>
@@ -37,6 +18,15 @@ SoftwareSerial BTSerial(2,3);	//(RX | TX) - PINS
 #define FILTER_MAJOR_VALUE	3				//to filter other beacons
 #define RSSI_STRENGTH		90				//to filter beacon with a too big distance
 
+#define WTV_DOUT			PORTB4
+#define WTV_CLK				PORTB5
+#define WTV_RESET			PORTB1
+
+#define OPCODE_PLAY_PAUSE	0xFFFE			//play track or stop the current, first send track number 0-511
+#define OPCODE_STOP			0xFFFF			//stops the current playback
+#define OPCODE_VOL			0xFFF0			//0xFFF0 is muted 0xFFF7 is max volume
+
+
 unsigned int scanClosestBeacon();
 void scan();
 void sendCommand(int com);
@@ -51,6 +41,9 @@ void vibroController(boolean state);
 unsigned int readValueDec(int array_length);
 unsigned int castHexChararrToIntDec(char* array);
 void testComparing(unsigned int test);
+void sendWTVcommand(unsigned int command);
+void resetWTV();
+void pinSetupWTV();
 
 boolean firstBeacon = false;						//at first there must be a beacon for comparing to
 // unsigned int countBeacon = 1;
@@ -310,6 +303,42 @@ void scan()
 	testComparing(scanClosestBeacon()); 
 }
 
+void sendWTVcommand(unsigned int command){
+	  digitalWrite(WTV_CLK, LOW);
+	  delayMicroseconds(1900);
+	  for (byte i = 0; i < 16; i++)
+	  {
+		  delayMicroseconds(100);
+		  digitalWrite(WTV_CLK, LOW);
+		  digitalWrite(WTV_DOUT, LOW);
+		  if ((command & 0x8000) != 0)
+		  {
+			  digitalWrite(WTV_DOUT, HIGH);
+		  }
+		  delayMicroseconds(100);
+		  digitalWrite(WTV_CLK, HIGH);
+		  command = command<<1;
+	  }
+}
+
+void resetWTV()
+{
+	digitalWrite(WTV_RESET, LOW);
+	delay(100);
+	digitalWrite(WTV_RESET, HIGH);
+	delay(500);
+}
+
+void pinSetupWTV()
+{
+	 pinMode(WTV_RESET, OUTPUT);
+	 digitalWrite(WTV_RESET, LOW);
+	 pinMode(WTV_DOUT, OUTPUT);
+	 digitalWrite(WTV_DOUT, HIGH);
+	 pinMode(WTV_CLK, OUTPUT);
+	 digitalWrite(WTV_CLK, HIGH);
+}
+
 void loop()
 {
 // 	scan();
@@ -320,4 +349,3 @@ void loop()
 // 	BTSerial.print("U");
 	delay(1000);
 }
->>>>>>> master
