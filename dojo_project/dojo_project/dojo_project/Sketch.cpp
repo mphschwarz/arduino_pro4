@@ -341,11 +341,16 @@ void pinSetupWTV()
 
 void loop()
 {
+	if (BTSerial.available())
+	{
+		mySerial.write(readAnswer());
+	}
+	else
+	{
+		mySerial.write("a");
+	}
 // 	scan();
 // 	delay(2000);
 // 	mySerial.println("works!");
-// 	delay(1000);
-	firstResponse();
-// 	BTSerial.print("U");
-	delay(1000);
+	delay(500);	
 }

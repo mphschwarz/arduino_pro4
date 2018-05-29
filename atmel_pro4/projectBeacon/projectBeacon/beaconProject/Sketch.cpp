@@ -12,6 +12,7 @@ SoftwareSerial BTSerial(2,3); //(RX | TX) - PINS
 #define SD_PATH				0b00011010		//just default!!
 #define MC_PATH				0b00000101
 #define VIBRO_ON_OFF		0b00100000
+#define FTDI_PATH			0b00000000		//from MCU over FTDI to USB micro B to computer
 #define UUID_ARRAY_LENGTH	3
 #define RSSI_ARRAY_LENGTH	3
 #define MAJOR_ARRAY_LENGTH	4
@@ -240,11 +241,6 @@ void printBeacons(BEACON_VALUES_DEC beacon)
 	Serial.print("-");
 	Serial.print(beacon.RSSI_value);
 	Serial.println("dbm");
-}
-
-void rssiCompare()
-{
-  
 }
 
 void multiplexController(int multiplex_path)
