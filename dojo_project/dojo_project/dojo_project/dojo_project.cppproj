@@ -225,10 +225,16 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="include\Dojo.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="include\libraries\SoftwareSerial\src\SoftwareSerial.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Sketch.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Dojo.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\libraries\SoftwareSerial\src\SoftwareSerial.cpp">

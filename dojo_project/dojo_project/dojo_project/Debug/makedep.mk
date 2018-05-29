@@ -4,5 +4,7 @@
 
 Sketch.cpp
 
+src\Dojo.c
+
 src\libraries\SoftwareSerial\src\SoftwareSerial.cpp
 

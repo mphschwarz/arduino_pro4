@@ -3,6 +3,7 @@
 
 #include <SoftwareSerial.h>
 #include <Time.h>
+#include "include\Dojo.h"
 
 SoftwareSerial mySerial(0,1);	//usual RX,TX
 SoftwareSerial BTSerial(2,3);	//(RX | TX) - PINS
@@ -67,11 +68,18 @@ char endString[8];
 
 void setup()
 {
-	mySerial.begin(9600);
-	BTSerial.begin(9600);
+	//mySerial.begin(9600);
+	//BTSerial.begin(9600);
 	
 	DDRC = 0xff;				//set all PINS to output
 	DDRD = 0xff;
+	DDRB = 0xff;
+	
+	PORTC = 0b00011010;
+	PORTB = 0b00000000;
+	
+	pinSetupWTV();
+	pinMode(4, OUTPUT);
 	
 	//VIBRO = (1<<5);			//test VIBRO as LED
 	
@@ -305,17 +313,20 @@ void scan()
 
 void sendWTVcommand(unsigned int command){
 	  digitalWrite(WTV_CLK, LOW);
-	  delayMicroseconds(1900);
+	  //delayMicroseconds(1900);
+	  _delay_us(1900);
 	  for (byte i = 0; i < 16; i++)
 	  {
-		  delayMicroseconds(100);
+		  //delayMicroseconds(100);
+		  _delay_us(100);
 		  digitalWrite(WTV_CLK, LOW);
 		  digitalWrite(WTV_DOUT, LOW);
 		  if ((command & 0x8000) != 0)
 		  {
 			  digitalWrite(WTV_DOUT, HIGH);
 		  }
-		  delayMicroseconds(100);
+		  //delayMicroseconds(100);
+		  _delay_us(100);
 		  digitalWrite(WTV_CLK, HIGH);
 		  command = command<<1;
 	  }
@@ -324,9 +335,9 @@ void sendWTVcommand(unsigned int command){
 void resetWTV()
 {
 	digitalWrite(WTV_RESET, LOW);
-	delay(100);
+	_delay_ms(100);
 	digitalWrite(WTV_RESET, HIGH);
-	delay(500);
+	_delay_ms(500);
 }
 
 void pinSetupWTV()
@@ -352,5 +363,48 @@ void loop()
 // 	scan();
 // 	delay(2000);
 // 	mySerial.println("works!");
-	delay(500);	
+// 	delay(1000);
+	firstResponse();
+// 	BTSerial.print("U");
+	delay(1000);
 }
+
+#define MULTIPLEXER_PORT	PORTC
+#define SD_PATH				0b00011010		//just default!!
+#define MC_PATH				0b00000101
+#define VIBRO_ON_OFF		0b00100000
+#define FTDI_PATH			0b00000000		//from MCU over FTDI to USB micro B to computer
+#define UUID_ARRAY_LENGTH	3
+#define RSSI_ARRAY_LENGTH	3
+#define MAJOR_ARRAY_LENGTH	4
+#define FILTER_MAJOR_VALUE	3				//to filter other beacons
+#define RSSI_STRENGTH		90				//to filter beacon with a too big distance
+
+#define WTV_DOUT			PORTB4
+#define WTV_CLK				PORTB5
+#define WTV_RESET			PORTB1
+
+#define OPCODE_PLAY_PAUSE	0xFFFE			//play track or stop the current, first send track number 0-511
+#define OPCODE_STOP			0xFFFF			//stops the current playback
+#define OPCODE_VOL			0xFFF0			//0xFFF0 is muted 0xFFF7 is max volume
+
+
+unsigned int scanClosestBeacon();
+void scan();
+void sendCommand(int com);
+int readAnswer();
+// int saveBeacon(int i);
+void filt(int answerByte);
+void rssiCompare();
+void firstResponse();
+void compareBeacon();
+void multiplexController(int multiplex_path);
+void vibroController(boolean state);
+unsigned int readValueDec(int array_length);
+unsigned int castHexChararrToIntDec(char* array);
+void testComparing(unsigned int test);
+void sendWTVcommand(unsigned int command);
+void resetWTV();
+void pinSetupWTV();
+
+	delay(500);	
