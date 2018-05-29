@@ -1,5 +1,4 @@
-﻿
-#include <Arduino.h>
+﻿#include <Arduino.h>
 
 #include <SoftwareSerial.h>
 #include <Time.h>
@@ -217,15 +216,15 @@ struct BEACON_VALUES_DEC getUUID_RSSI()
 	BEACON_VALUES_DEC beacon;
 	
 	while(readAnswer() != ':')
-	{/*wait until ':' is recived*/}
+	{/*/wait until ':' is recived/*/}
 	beacon.UUID_value = readValueDec(UUID_ARRAY_LENGTH);
 	
 	while (readAnswer() != ':')
-	{/*wait until ":" is recieved*/}
+	{/*/wait until ":" is recieved/*/}
 	beacon.MAJOR_value = readValueDec(MAJOR_ARRAY_LENGTH);
 	
 	while(readAnswer() != '-')
-	{/*wait until '-' is recived*/}
+	{/*/wait until '-' is recived/*/}
 	beacon.RSSI_value = readValueDec(RSSI_ARRAY_LENGTH);
 	
 	return beacon;
@@ -308,28 +307,28 @@ void testComparing(unsigned int test)
 
 void scan()
 {
-	testComparing(scanClosestBeacon()); 
+	testComparing(scanClosestBeacon());
 }
 
 void sendWTVcommand(unsigned int command){
-	  digitalWrite(WTV_CLK, LOW);
-	  //delayMicroseconds(1900);
-	  _delay_us(1900);
-	  for (byte i = 0; i < 16; i++)
-	  {
-		  //delayMicroseconds(100);
-		  _delay_us(100);
-		  digitalWrite(WTV_CLK, LOW);
-		  digitalWrite(WTV_DOUT, LOW);
-		  if ((command & 0x8000) != 0)
-		  {
-			  digitalWrite(WTV_DOUT, HIGH);
-		  }
-		  //delayMicroseconds(100);
-		  _delay_us(100);
-		  digitalWrite(WTV_CLK, HIGH);
-		  command = command<<1;
-	  }
+	digitalWrite(WTV_CLK, LOW);
+	//delayMicroseconds(1900);
+	_delay_us(1900);
+	for (byte i = 0; i < 16; i++)
+	{
+		//delayMicroseconds(100);
+		_delay_us(100);
+		digitalWrite(WTV_CLK, LOW);
+		digitalWrite(WTV_DOUT, LOW);
+		if ((command & 0x8000) != 0)
+		{
+			digitalWrite(WTV_DOUT, HIGH);
+		}
+		//delayMicroseconds(100);
+		_delay_us(100);
+		digitalWrite(WTV_CLK, HIGH);
+		command = command<<1;
+	}
 }
 
 void resetWTV()
@@ -342,12 +341,12 @@ void resetWTV()
 
 void pinSetupWTV()
 {
-	 pinMode(WTV_RESET, OUTPUT);
-	 digitalWrite(WTV_RESET, LOW);
-	 pinMode(WTV_DOUT, OUTPUT);
-	 digitalWrite(WTV_DOUT, HIGH);
-	 pinMode(WTV_CLK, OUTPUT);
-	 digitalWrite(WTV_CLK, HIGH);
+	pinMode(WTV_RESET, OUTPUT);
+	digitalWrite(WTV_RESET, LOW);
+	pinMode(WTV_DOUT, OUTPUT);
+	digitalWrite(WTV_DOUT, HIGH);
+	pinMode(WTV_CLK, OUTPUT);
+	digitalWrite(WTV_CLK, HIGH);
 }
 
 void loop()
@@ -363,9 +362,9 @@ void loop()
 	}
 	delay(500);
 
-// 	scan();
-// 	delay(2000);
-// 	mySerial.println("works!");
-// 	delay(1000);
-// 	BTSerial.print("U");
+	// 	scan();
+	// 	delay(2000);
+	// 	mySerial.println("works!");
+	// 	delay(1000);
+	// 	BTSerial.print("U");
 }
