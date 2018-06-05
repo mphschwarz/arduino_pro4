@@ -2,7 +2,7 @@
 
 #include <SoftwareSerial.h>
 #include <Time.h>
-#include "include\Dojo.h"
+//#include "include\Dojo.h"
 
 SoftwareSerial mySerial(0,1);	//usual RX,TX
 SoftwareSerial BTSerial(2,3);	//(RX | TX) - PINS
