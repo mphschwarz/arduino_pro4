@@ -67,18 +67,22 @@ char endString[8];
 
 void setup()
 {
-	//mySerial.begin(9600);
-	//BTSerial.begin(9600);
+	mySerial.begin(9600);
+	BTSerial.begin(9600);
 	
 	DDRC = 0xff;				//set all PINS to output
-	DDRD = 0xff;
+	//DDRD = 0xff;
 	DDRB = 0xff;
 	
 	PORTC = 0b00011010;
 	PORTB = 0b00000000;
 	
 	pinSetupWTV();
+	
 	pinMode(4, OUTPUT);
+	
+	//Setup LED Power on
+	digitalWrite(PORTD4, LOW);
 	
 	//VIBRO = (1<<5);			//test VIBRO as LED
 	
@@ -351,20 +355,17 @@ void pinSetupWTV()
 
 void loop()
 {
-	sendCommand(1);
-	
-	
-	
-	if (BTSerial.available())
-	{
-		mySerial.write(readAnswer());
-		mySerial.write(readAnswer());
-	}
-	delay(500);
-
-	// 	scan();
-	// 	delay(2000);
-	// 	mySerial.println("works!");
-	// 	delay(1000);
-	// 	BTSerial.print("U");
+// 	multiplexController(FTDI_PATH);
+// 	
+// 	sendCommand(1);
+// 	delay(100);
+// 	mySerial.println("command has been sent");
+// 	delay(100);
+// 	
+// 	if (BTSerial.available())
+// 	{
+//  		mySerial.write(readAnswer());
+//  		mySerial.write(readAnswer());
+// 	}
+// 	delay(500);
 }
