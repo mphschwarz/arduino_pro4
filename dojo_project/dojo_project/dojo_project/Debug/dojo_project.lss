@@ -15,19 +15,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   5 .debug_aranges 000003e8  00000000  00000000  00001230  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_info   0000afb8  00000000  00000000  00001618  2**0
+  6 .debug_info   0000afb4  00000000  00000000  00001618  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 000021e5  00000000  00000000  0000c5d0  2**0
+  7 .debug_abbrev 000021ec  00000000  00000000  0000c5cc  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   00002582  00000000  00000000  0000e7b5  2**0
+  8 .debug_line   00002582  00000000  00000000  0000e7b8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  00000b3c  00000000  00000000  00010d38  2**2
+  9 .debug_frame  00000b3c  00000000  00000000  00010d3c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    000028c6  00000000  00000000  00011874  2**0
+ 10 .debug_str    000028c6  00000000  00000000  00011878  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00004081  00000000  00000000  0001413a  2**0
+ 11 .debug_loc    00004059  00000000  00000000  0001413e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 00000400  00000000  00000000  000181bb  2**0
+ 12 .debug_ranges 00000400  00000000  00000000  00018197  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -199,7 +199,7 @@ void setup()
 	switch (state)
 	{
 	case SCAN:
-		unsigned int ibeacon;
+		static unsigned int ibeacon = 0;
 		unsigned int buffer = scan();
      160:	0e 94 48 02 	call	0x490	; 0x490 <_Z4scanv>
 		if (buffer != 0)

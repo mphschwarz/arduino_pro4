@@ -30,7 +30,7 @@ void dojo_statemachine(void)
 	switch (state)
 	{
 	case SCAN:
-		unsigned int ibeacon;
+		static unsigned int ibeacon = 0;
 		unsigned int buffer = scan();
 		if (buffer != 0)
 		{
@@ -41,11 +41,11 @@ void dojo_statemachine(void)
 // 		mySerial.println(buffer);
 // 		mySerial.println("checked!");
 		break;
-	case SD:
-		//TODO: what terminates sd loading mode?
-	case SERIAL:
-		serialCom();
-		break;
+// 	case SD:
+// 		//TODO: what terminates sd loading mode?
+// 	case SERIAL:
+// 		serialCom();
+// 		break;
 	}
 }
 

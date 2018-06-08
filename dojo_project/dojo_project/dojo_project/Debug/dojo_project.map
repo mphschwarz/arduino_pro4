@@ -1242,31 +1242,31 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xafb8
+.debug_info     0x00000000     0xafb4
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0x543 Sketch.o
- .debug_info    0x00000b37      0xdf1 src/Dojo_Functions.o
- .debug_info    0x00001928     0x28f2 src/libraries/SoftwareSerial/src/SoftwareSerial.o
- .debug_info    0x0000421a     0x1b16 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00005d30      0x237 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00005f67     0x28ff C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x00008866      0x2cb C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x00008b31      0x5fe C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x0000912f     0x1e89 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x000005f4      0x53f Sketch.o
+ .debug_info    0x00000b33      0xdf1 src/Dojo_Functions.o
+ .debug_info    0x00001924     0x28f2 src/libraries/SoftwareSerial/src/SoftwareSerial.o
+ .debug_info    0x00004216     0x1b16 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00005d2c      0x237 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00005f63     0x28ff C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x00008862      0x2cb C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00008b2d      0x5fe C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x0000912b     0x1e89 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
-.debug_abbrev   0x00000000     0x21e5
+.debug_abbrev   0x00000000     0x21ec
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x225 Sketch.o
- .debug_abbrev  0x000007c7      0x3cb src/Dojo_Functions.o
- .debug_abbrev  0x00000b92      0x60b src/libraries/SoftwareSerial/src/SoftwareSerial.o
- .debug_abbrev  0x0000119d      0x3ce C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x0000156b      0x12d C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00001698      0x47a C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00001b12      0x146 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00001c58      0x15b C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x00001db3      0x432 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x000005a2      0x22c Sketch.o
+ .debug_abbrev  0x000007ce      0x3cb src/Dojo_Functions.o
+ .debug_abbrev  0x00000b99      0x60b src/libraries/SoftwareSerial/src/SoftwareSerial.o
+ .debug_abbrev  0x000011a4      0x3ce C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00001572      0x12d C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x0000169f      0x47a C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001b19      0x146 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00001c5f      0x15b C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00001dba      0x432 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
 .debug_line     0x00000000     0x2582
  *(.debug_line .debug_line.* .debug_line_end)
@@ -1315,16 +1315,16 @@ END GROUP
  .debug_str     0x00002630      0x296 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x15f9 (size before relaxing)
 
-.debug_loc      0x00000000     0x4081
+.debug_loc      0x00000000     0x4059
  *(.debug_loc)
- .debug_loc     0x00000000       0x60 Sketch.o
- .debug_loc     0x00000060      0x849 src/Dojo_Functions.o
- .debug_loc     0x000008a9      0xc96 src/libraries/SoftwareSerial/src/SoftwareSerial.o
- .debug_loc     0x0000153f      0x1b0 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x000016ef     0x1c87 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00003376      0x28d C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x00003603      0x5fc C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x00003bff      0x482 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00000000       0x38 Sketch.o
+ .debug_loc     0x00000038      0x849 src/Dojo_Functions.o
+ .debug_loc     0x00000881      0xc96 src/libraries/SoftwareSerial/src/SoftwareSerial.o
+ .debug_loc     0x00001517      0x1b0 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x000016c7     0x1c87 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x0000334e      0x28d C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x000035db      0x5fc C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00003bd7      0x482 C:\Users\andre\Documents\GitKraken\pro4E\arduino_pro4\dojo_project\dojo_project\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
 .debug_macinfo
  *(.debug_macinfo)
