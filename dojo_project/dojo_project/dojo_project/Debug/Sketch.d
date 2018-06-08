@@ -1,4 +1,4 @@
-Sketch.d Sketch.o: .././Sketch.cpp \
+Sketch.d Sketch.o: .././Sketch.cpp .././include/Dojo.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
@@ -37,6 +37,8 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\include\libraries\SoftwareSerial\src/SoftwareSerial.h \
  ..\\..\ArduinoCore\include\core/Stream.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\time.h
+
+.././include/Dojo.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 

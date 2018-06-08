@@ -1,13 +1,9 @@
-/*
- * Dojo.c
- *
- * Created: 23.05.2018 14:48:22
- *  Author: Admin
- */ 
-
 #include "../include/Dojo.h"
-#include <SoftwareSerial.h>
-#include <Time.h>
+
+extern SoftwareSerial mySerial;	//usual RX,TX
+extern SoftwareSerial BTSerial;	//(RX | TX) - PINS
+
+boolean firstBeacon = false;						//at first there must be a beacon for comparing to
 
 struct BEACON_VALUES_DEC
 {
@@ -24,7 +20,6 @@ void printBeacons(BEACON_VALUES_DEC beacon);
 char command_AT[2] = {'A','T'};
 char command_ATDISI[8] = {'A','T','+','D','I','S','I','?'};
 char endString[8];
-
 
 void firstResponse()
 {
@@ -252,11 +247,9 @@ void scan()
 
 void sendWTVcommand(unsigned int command){
 	digitalWrite(WTV_CLK, LOW);
-	//delayMicroseconds(1900);
 	_delay_us(1900);
 	for (byte i = 0; i < 16; i++)
 	{
-		//delayMicroseconds(100);
 		_delay_us(100);
 		digitalWrite(WTV_CLK, LOW);
 		digitalWrite(WTV_DOUT, LOW);
@@ -264,7 +257,6 @@ void sendWTVcommand(unsigned int command){
 		{
 			digitalWrite(WTV_DOUT, HIGH);
 		}
-		//delayMicroseconds(100);
 		_delay_us(100);
 		digitalWrite(WTV_CLK, HIGH);
 		command = command<<1;

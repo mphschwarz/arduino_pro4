@@ -1,12 +1,9 @@
-/*
- * Dojo.h
- *
- * Created: 23.05.2018 14:45:15
- *  Author: Admin
- */ 
 #ifndef DOJO_H_
+#define  DOJO_H_
+
 #include <Arduino.h>
-#endif DOJO_H_
+#include <SoftwareSerial.h>
+#include <Time.h>
 
 #define MULTIPLEXER_PORT	PORTC
 #define SD_PATH				0b00011010		//just default!!
@@ -27,30 +24,21 @@
 #define OPCODE_STOP			0xFFFF			//stops the current playback
 #define OPCODE_VOL			0xFFF0			//0xFFF0 is muted 0xFFF7 is max volume
 
-unsigned int scanClosestBeacon();
-void scan();
-void sendCommand(int com);
-int readAnswer();
-// int saveBeacon(int i);
-void filt(int answerByte);
-void rssiCompare();
-void firstResponse();
-void compareBeacon();
-void multiplexController(int multiplex_path);
-void vibroController(boolean state);
-unsigned int readValueDec(int array_length);
-unsigned int castHexChararrToIntDec(char* array);
-void testComparing(unsigned int test);
-void sendWTVcommand(unsigned int command);
-void resetWTV();
-void pinSetupWTV();
+extern unsigned int scanClosestBeacon();
+extern void scan();
+extern void sendCommand(int com);
+extern int readAnswer();
+extern void filt(int answerByte);
+extern void rssiCompare();
+extern void firstResponse();
+extern void compareBeacon();
+extern void multiplexController(int multiplex_path);
+extern void vibroController(boolean state);
+extern unsigned int readValueDec(int array_length);
+extern unsigned int castHexChararrToIntDec(char* array);
+extern void testComparing(unsigned int test);
+extern void sendWTVcommand(unsigned int command);
+extern void resetWTV();
+extern void pinSetupWTV();
 
-
-/*#ifndef DOJO_H_
-#define DOJO_H_
-
-
-
-
-
-#endif /* DOJO_H_ */
+#endif DOJO_H_

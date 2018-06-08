@@ -1,5 +1,5 @@
-src/Dojo.d src/Dojo.o: ../src/Dojo.c ../src/..\include\Dojo.h \
- ..\\..\ArduinoCore\include\core/Arduino.h \
+src/Dojo_Functions.d src/Dojo_Functions.o: ../src/Dojo_Functions.cpp \
+ ../src/../include/Dojo.h ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdbool.h \
@@ -19,9 +19,26 @@ src/Dojo.d src/Dojo.o: ../src/Dojo.c ../src/..\include\Dojo.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  ..\\..\ArduinoCore\include\core/binary.h \
- ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h
+ ..\\..\ArduinoCore\include\core/WCharacter.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h \
+ ..\\..\ArduinoCore\include\core/WString.h \
+ ..\\..\ArduinoCore\include\core/HardwareSerial.h \
+ ..\\..\ArduinoCore\include\core/Stream.h \
+ ..\\..\ArduinoCore\include\core/Print.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdarg.h \
+ ..\\..\ArduinoCore\include\core/Printable.h \
+ ..\\..\ArduinoCore\include\core/USBAPI.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
+ ..\\..\ArduinoCore\include\core/Arduino.h \
+ ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
+ ..\include\libraries\SoftwareSerial\src/SoftwareSerial.h \
+ ..\\..\ArduinoCore\include\core/Stream.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\time.h
 
-../src/..\include\Dojo.h:
+../src/../include/Dojo.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -63,4 +80,38 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\core/binary.h:
 
+..\\..\ArduinoCore\include\core/WCharacter.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\ctype.h:
+
+..\\..\ArduinoCore\include\core/WString.h:
+
+..\\..\ArduinoCore\include\core/HardwareSerial.h:
+
+..\\..\ArduinoCore\include\core/Stream.h:
+
+..\\..\ArduinoCore\include\core/Print.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdarg.h:
+
+..\\..\ArduinoCore\include\core/Printable.h:
+
+..\\..\ArduinoCore\include\core/USBAPI.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\eeprom.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
+
+..\\..\ArduinoCore\include\core/Arduino.h:
+
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
+
+..\include\libraries\SoftwareSerial\src/SoftwareSerial.h:
+
+..\\..\ArduinoCore\include\core/Stream.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\time.h:
