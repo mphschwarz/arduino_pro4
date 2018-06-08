@@ -30,15 +30,21 @@ void dojo_statemachine(void)
 	switch (state)
 	{
 	case SCAN:
-		scan();
+		unsigned int ibeacon;
+		unsigned int buffer = scan();
+		if (buffer != 0)
+		{
+			ibeacon = buffer;
+			mySerial.println(ibeacon);
+			// Hier den ibeacon für in den Play-State übergeben!
+		}
+// 		mySerial.println(buffer);
+// 		mySerial.println("checked!");
 		break;
 	}
 }
 
 void loop()
 {
-// 	vibroController(true);
-	mySerial.println("passed");
  	dojo_statemachine();
-	_delay_ms(5000);
 }

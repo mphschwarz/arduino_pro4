@@ -112,7 +112,7 @@ void sendCommand(int com)
 		}
 		break;
 		default:
-		//do nothing
+			//do nothing
 		break;
 	}
 }
@@ -218,30 +218,28 @@ unsigned int castHexChararrToIntDec(char* array)
 	return cast;
 }
 
-void testComparing(unsigned int test)
+unsigned int testComparing(unsigned int test)
 {
 	static unsigned int compare = 0;
 	
-	mySerial.println(test);
 	if (test != compare && test != 0)
 	{
 		compare = test;
-		mySerial.println(compare);					//to print first three numbers of UUID
 		closest_Beacon.UUID_value = 0;
 		closest_Beacon.MAJOR_value = 0;
 		closest_Beacon.RSSI_value = 0;
 		vibroController(true);
+		return compare;
 	}
 	else
 	{
-		//do nothing!
+		return 0;
 	}
 }
 
-void scan()
+unsigned int scan()
 {
-	testComparing(scanClosestBeacon());
-	mySerial.println("passes testComparing");
+	return testComparing(scanClosestBeacon());
 }
 
 void sendWTVcommand(unsigned int command){
