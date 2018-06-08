@@ -15,6 +15,7 @@
 #define MAJOR_ARRAY_LENGTH	4
 #define FILTER_MAJOR_VALUE	3				//to filter other beacons
 #define RSSI_STRENGTH		90				//to filter beacon with a too big distance
+#define STATUS_LED			PORTD4
 
 #define WTV_DOUT			12
 #define WTV_CLK				13
@@ -23,6 +24,8 @@
 #define OPCODE_PLAY_PAUSE	0xFFFE			//play track or stop the current, first send track number 0-511
 #define OPCODE_STOP			0xFFFF			//stops the current playback
 #define OPCODE_VOL			0xFFF0			//0xFFF0 is muted 0xFFF7 is max volume
+
+enum State{SCAN, PLAY, GET_LIKES, LOAD_SD, LOAD_CONFIG};
 
 extern unsigned int scanClosestBeacon();
 extern void scan();

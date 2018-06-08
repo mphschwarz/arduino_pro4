@@ -8,7 +8,7 @@ boolean firstBeacon = false;						//at first there must be a beacon for comparin
 struct BEACON_VALUES_DEC
 {
 	unsigned int UUID_value;
-	unsigned int RSSI_value;			//its the absolut value of RSSI
+	unsigned int RSSI_value;			//its the absolute value of RSSI
 	unsigned int MAJOR_value;
 };
 
@@ -25,16 +25,15 @@ void firstResponse()
 {
 	while(!BTSerial.available())
 	{
-		mySerial.println("do");
 		sendCommand(1);
-		delay(2500);
+		_delay_ms(2500);
 	}
 	
 	while (1)
 	{
-		if (readAnswer() == 'O')
+		if (readAnswer() == 79)
 		{
-			if (readAnswer() == 'K')
+			if (readAnswer() == 75)
 			{
 				break;
 			}
@@ -53,7 +52,6 @@ void firstResponse()
 unsigned int scanClosestBeacon()
 {
 	int compare_koeff;
-	
 	sendCommand(2);
 	
 	while(1)
@@ -172,8 +170,7 @@ unsigned int readValueDec(int array_length)
 	for(int i = 0; i < array_length; i++)
 	{
 		value = (value * 10) + (readAnswer() - '0');
-	}
-	
+	}	
 	return value;
 }
 
@@ -205,7 +202,7 @@ void vibroController(boolean state)
 	if (state == true)					//turns the vibro ON
 	{
 		MULTIPLEXER_PORT |= VIBRO_ON_OFF;
-		delay(500);
+		_delay_ms(500);
 		vibroController(false);
 	}
 	else if(state == false)				//turns the vibro OFF
@@ -225,10 +222,11 @@ void testComparing(unsigned int test)
 {
 	static unsigned int compare = 0;
 	
+	mySerial.println(test);
 	if (test != compare && test != 0)
 	{
 		compare = test;
-		Serial.println(compare);					//to print first three numbers of UUID
+		mySerial.println(compare);					//to print first three numbers of UUID
 		closest_Beacon.UUID_value = 0;
 		closest_Beacon.MAJOR_value = 0;
 		closest_Beacon.RSSI_value = 0;
@@ -243,6 +241,7 @@ void testComparing(unsigned int test)
 void scan()
 {
 	testComparing(scanClosestBeacon());
+	mySerial.println("passes testComparing");
 }
 
 void sendWTVcommand(unsigned int command){

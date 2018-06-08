@@ -3,27 +3,42 @@
 SoftwareSerial mySerial(0,1);	//usual RX,TX
 SoftwareSerial BTSerial(2,3);	//(RX | TX) - PINS
 
+// state init
 void setup()
 {
+	// all Baudrates to 9600 of UART-Connection
 	mySerial.begin(9600);
-	BTSerial.begin(9600);
-	
-	DDRC = 0xff;				//set all PINS to output
-	//DDRD = 0xff;
-	DDRB = 0xff;
-	
-	PORTC = 0b00011010;
-	PORTB = 0b00000000;
-	
-	pinSetupWTV();
-	
-	pinMode(4, OUTPUT);
-	
+	BTSerial.begin(9600);	
+	// Mux- and Vibro Ports to output
+	DDRC = 0xff;	
+	// For WTV setting ports individual
+	DDRB |= 0b00111011;	
+	// buttons as inputs
+	DDRD |= 0b00010000;
+	multiplexController(FTDI_PATH);	
+	pinSetupWTV();		
 	//Setup LED Power on
-	digitalWrite(PORTD4, LOW);
+	digitalWrite(STATUS_LED, LOW);
+	// get first response from the hm-11
+	firstResponse();
+}
+
+void dojo_statemachine(void)
+{
+	static enum State state = SCAN;
+	
+	switch (state)
+	{
+	case SCAN:
+		scan();
+		break;
+	}
 }
 
 void loop()
 {
-	
+// 	vibroController(true);
+	mySerial.println("passed");
+ 	dojo_statemachine();
+	_delay_ms(5000);
 }
