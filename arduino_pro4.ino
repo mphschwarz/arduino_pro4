@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <EEPROM.h>
-#include "../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/USBAPI.h"
-#include "../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial.h"
-#include "../../../../../opt/arduino-1.8.5/hardware/tools/avr/avr/include/stdlib.h"
+//#include "../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/USBAPI.h"
+//#include "../../../../../opt/arduino-1.8.5/hardware/arduino/avr/cores/arduino/HardwareSerial.h"
+//#include "../../../../../opt/arduino-1.8.5/hardware/tools/avr/avr/include/stdlib.h"
 
 #define RESET 9
 #define NEXT 8
@@ -84,6 +84,7 @@ void inventoryManager() {
                 int outbyte = EEPROM.read(a);
                 Serial.print(outbyte); Serial.print("\n");
             } else if (opcode == 'p') {
+                Serial.print("r\n");
                 EEPROM.write(a, v);
             }
             counter = 0;
