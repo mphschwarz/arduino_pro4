@@ -250,6 +250,40 @@ void scan()
 	testComparing(scanClosestBeacon());
 }
 
+void serialCom() {
+	while (Serial.available() > 0) {
+		delay(1);
+	        temp = Serial.read();
+	        if (temp != ';') {  //';' terminates instruction
+	        	if (counter == 0) {
+	            	    opcode = temp;
+	            	} else if (counter >= 1 && counter <= 3) {
+	            	    address[counter - 1] = temp;
+	            	} else if (counter >= 4 && counter <= 6) {
+	            	    value[counter - 4] = temp;
+	            	}
+	            	counter ++;
+	        } else {
+	        	int a = atoi(address);
+	        	int v = atoi(value);
+	
+	        	if (opcode == 'q') {
+	        	    int outbyte = EEPROM.read(a);
+	        	    Serial.print(outbyte); Serial.print("\n");
+	        	} else if (opcode == 'p') {
+	        	    Serial.print("r\n");
+	        	    EEPROM.write(a, v);
+	        	} else if (opcode == 'm') {
+					Serial.print("r\n");
+					//TODO: switch multiplexer to sd
+
+			}
+	        counter = 0;
+	        break;
+		}
+	}
+}
+
 void sendWTVcommand(unsigned int command){
 	digitalWrite(WTV_CLK, LOW);
 	//delayMicroseconds(1900);
