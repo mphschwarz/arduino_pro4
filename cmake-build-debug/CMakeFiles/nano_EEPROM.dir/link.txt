@@ -1,2 +1,0 @@
-/usr/bin/avr-ar qc libnano_EEPROM.a  
-/usr/bin/avr-ranlib libnano_EEPROM.a

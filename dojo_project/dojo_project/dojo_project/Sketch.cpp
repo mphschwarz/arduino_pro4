@@ -41,6 +41,11 @@ void dojo_statemachine(void)
 // 		mySerial.println(buffer);
 // 		mySerial.println("checked!");
 		break;
+	case SD:
+		//TODO: what terminates sd loading mode?
+	case SERIAL:
+		serialCom();
+		break;
 	}
 }
 

@@ -1,6 +1,10 @@
-/opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mschwarz/fhnw/pro4E/arduino_pro4
--- Generating arduino_pro4
--- Using /usr/bin/avr-objcopy for converting firmware image to hex
--- Configuring done
--- Generating done
--- Build files have been written to: /home/mschwarz/fhnw/pro4E/arduino_pro4/cmake-build-debug
+/opt/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mschwarz/fhnw/pro4E/arduino_pro4
+CMake Error at cmake/ArduinoToolchain.cmake:81 (message):
+  Could not find Arduino SDK (set ARDUINO_SDK_PATH)!
+Call Stack (most recent call first):
+  /opt/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt:4 (project)
+
+
+CMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+-- Configuring incomplete, errors occurred!
