@@ -16,10 +16,12 @@
 #define FILTER_MAJOR_VALUE	3				//to filter other beacons
 #define RSSI_STRENGTH		90				//to filter beacon with a too big distance
 #define STATUS_LED			PORTD4
-
+#define BPLAY				10				// Button Play/Resetpause Test
+#define BPaus				11				// Button Pause (X) 
 #define WTV_DOUT			12
 #define WTV_CLK				13
 #define WTV_RESET			9
+#define WTV_PATH			0b00011000
 
 #define OPCODE_PLAY_PAUSE	0xFFFE			//play track or stop the current, first send track number 0-511
 #define OPCODE_STOP			0xFFFF			//stops the current playback

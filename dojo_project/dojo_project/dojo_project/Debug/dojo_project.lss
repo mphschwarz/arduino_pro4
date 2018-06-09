@@ -15,19 +15,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   5 .debug_aranges 000003e8  00000000  00000000  000010fc  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_info   0000af78  00000000  00000000  000014e4  2**0
+  6 .debug_info   0000af79  00000000  00000000  000014e4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 000021ce  00000000  00000000  0000c45c  2**0
+  7 .debug_abbrev 000021ec  00000000  00000000  0000c45d  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   00002576  00000000  00000000  0000e62a  2**0
+  8 .debug_line   00002573  00000000  00000000  0000e649  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  00000b3c  00000000  00000000  00010ba0  2**2
+  9 .debug_frame  00000b3c  00000000  00000000  00010bbc  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    000028c6  00000000  00000000  000116dc  2**0
+ 10 .debug_str    000028b4  00000000  00000000  000116f8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00004021  00000000  00000000  00013fa2  2**0
+ 11 .debug_loc    00004021  00000000  00000000  00013fac  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 00000400  00000000  00000000  00017fc3  2**0
+ 12 .debug_ranges 00000400  00000000  00000000  00017fcd  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -242,12 +242,12 @@ SoftwareSerial mySerial(0,1);	//usual RX,TX
  190:	0c 94 a0 03 	jmp	0x740	; 0x740 <_ZN14SoftwareSerialD1Ev>
 
 00000194 <_Z19multiplexControlleri>:
-	#else
-		//round up by default
-		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
-	#endif
-
-	__builtin_avr_delay_cycles(__ticks_dc);
+		}
+		_delay_us(100);
+		digitalWrite(WTV_CLK, HIGH);
+		command = command<<1;
+	}
+}
  194:	98 b1       	in	r25, 0x08	; 8
  196:	18 b8       	out	0x08, r1	; 8
  198:	98 b1       	in	r25, 0x08	; 8
@@ -300,32 +300,21 @@ SoftwareSerial mySerial(0,1);	//usual RX,TX
  208:	08 95       	ret
 
 0000020a <_Z11pinSetupWTVv>:
-	_delay_ms(500);
-}
-
-void pinSetupWTV()
-{
-	pinMode(WTV_RESET, OUTPUT);
  20a:	61 e0       	ldi	r22, 0x01	; 1
  20c:	89 e0       	ldi	r24, 0x09	; 9
  20e:	0e 94 29 06 	call	0xc52	; 0xc52 <pinMode>
-	digitalWrite(WTV_RESET, LOW);
  212:	60 e0       	ldi	r22, 0x00	; 0
  214:	89 e0       	ldi	r24, 0x09	; 9
  216:	0e 94 65 06 	call	0xcca	; 0xcca <digitalWrite>
-	pinMode(WTV_DOUT, OUTPUT);
  21a:	61 e0       	ldi	r22, 0x01	; 1
  21c:	8c e0       	ldi	r24, 0x0C	; 12
  21e:	0e 94 29 06 	call	0xc52	; 0xc52 <pinMode>
-	digitalWrite(WTV_DOUT, HIGH);
  222:	61 e0       	ldi	r22, 0x01	; 1
  224:	8c e0       	ldi	r24, 0x0C	; 12
  226:	0e 94 65 06 	call	0xcca	; 0xcca <digitalWrite>
-	pinMode(WTV_CLK, OUTPUT);
  22a:	61 e0       	ldi	r22, 0x01	; 1
  22c:	8d e0       	ldi	r24, 0x0D	; 13
  22e:	0e 94 29 06 	call	0xc52	; 0xc52 <pinMode>
-	digitalWrite(WTV_CLK, HIGH);
  232:	61 e0       	ldi	r22, 0x01	; 1
  234:	8d e0       	ldi	r24, 0x0D	; 13
  236:	0c 94 65 06 	jmp	0xcca	; 0xcca <digitalWrite>
@@ -459,6 +448,12 @@ void firstResponse()
  2aa:	89 2b       	or	r24, r25
  2ac:	99 f4       	brne	.+38     	; 0x2d4 <_Z13firstResponsev+0x32>
  2ae:	0e 94 1d 01 	call	0x23a	; 0x23a <_Z11sendCommandi.part.2>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
  2b2:	2f ef       	ldi	r18, 0xFF	; 255
  2b4:	88 e0       	ldi	r24, 0x08	; 8
  2b6:	9d e3       	ldi	r25, 0x3D	; 61

@@ -242,23 +242,6 @@ unsigned int scan()
 	return testComparing(scanClosestBeacon());
 }
 
-void sendWTVcommand(unsigned int command){
-	digitalWrite(WTV_CLK, LOW);
-	_delay_us(1900);
-	for (byte i = 0; i < 16; i++)
-	{
-		_delay_us(100);
-		digitalWrite(WTV_CLK, LOW);
-		digitalWrite(WTV_DOUT, LOW);
-		if ((command & 0x8000) != 0)
-		{
-			digitalWrite(WTV_DOUT, HIGH);
-		}
-		_delay_us(100);
-		digitalWrite(WTV_CLK, HIGH);
-		command = command<<1;
-	}
-}
 
 void resetWTV()
 {
@@ -276,4 +259,23 @@ void pinSetupWTV()
 	digitalWrite(WTV_DOUT, HIGH);
 	pinMode(WTV_CLK, OUTPUT);
 	digitalWrite(WTV_CLK, HIGH);
+	
+}
+
+void sendWTVcommand(unsigned int command){
+	digitalWrite(WTV_CLK, LOW);
+	_delay_us(1900);
+	for (byte i = 0; i < 16; i++)
+	{
+		_delay_us(100);
+		digitalWrite(WTV_CLK, LOW);
+		digitalWrite(WTV_DOUT, LOW);
+		if ((command & 0x8000) != 0)
+		{
+			digitalWrite(WTV_DOUT, HIGH);
+		}
+		_delay_us(100);
+		digitalWrite(WTV_CLK, HIGH);
+		command = command<<1;
+	}
 }
