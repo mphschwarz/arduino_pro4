@@ -28,8 +28,8 @@
 enum State{SCAN, PLAY, GET_LIKES, LOAD_SD, LOAD_CONFIG};
 
 extern unsigned int scanClosestBeacon();
-extern void scan();
 extern void serialCom();
+extern unsigned int scan();
 extern void sendCommand(int com);
 extern int readAnswer();
 extern void filt(int answerByte);
@@ -40,7 +40,7 @@ extern void multiplexController(int multiplex_path);
 extern void vibroController(boolean state);
 extern unsigned int readValueDec(int array_length);
 extern unsigned int castHexChararrToIntDec(char* array);
-extern void testComparing(unsigned int test);
+extern unsigned int testComparing(unsigned int test);
 extern void sendWTVcommand(unsigned int command);
 extern void resetWTV();
 extern void pinSetupWTV();
