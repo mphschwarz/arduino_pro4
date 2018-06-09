@@ -32,9 +32,10 @@ void dojo_statemachine(void)
 	case SCAN:
 		scan();
 		break;
-	case SD:
+	case LOAD_SD:
+		//TOdo: switch multiplexer
 		//TODO: what terminates sd loading mode?
-	case SERIAL:
+	case LOAD_CONFIG:
 		serialCom();
 		break;
 	}

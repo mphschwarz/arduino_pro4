@@ -29,6 +29,7 @@ enum State{SCAN, PLAY, GET_LIKES, LOAD_SD, LOAD_CONFIG};
 
 extern unsigned int scanClosestBeacon();
 extern void scan();
+extern void serialCom();
 extern void sendCommand(int com);
 extern int readAnswer();
 extern void filt(int answerByte);

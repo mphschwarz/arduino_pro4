@@ -269,12 +269,12 @@ void serialCom() {
 	
 	        	if (opcode == 'q') {
 	        	    int outbyte = EEPROM.read(a);
-	        	    Serial.print(outbyte); Serial.print("\n");
+	        	    mySerial.print(outbyte); mySerial.print("\n");
 	        	} else if (opcode == 'p') {
-	        	    Serial.print("r\n");
+	        	    mySerial.print("r\n");
 	        	    EEPROM.write(a, v);
 	        	} else if (opcode == 'm') {
-					Serial.print("r\n");
+					mySerial.print("r\n");
 					//TODO: switch multiplexer to sd
 
 			}
